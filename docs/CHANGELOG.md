@@ -1,5 +1,18 @@
 # Changelog implementacji
 
+## v1.7 — 25 października 2026
+
+Wzbogacono 6 stacji o empiryczne dane wewnątrzfirmowe z raportu The Anthropic Institute (*How Employment is Changing at Anthropic*, Wilmers et al., październik 2026):
+- Dodano rekord źródła `content/sources/S59.json` z bezpośrednim linkiem do oryginalnego pliku PDF (`https://www-cdn.anthropic.com/72628f1863c53432195db83279252dfd2cb53158/Employment%20at%20Anthropic.pdf`).
+- Dodano 6 ograniczonych perspektyw dowodowych (`content/evidence/`):
+  - `anthropic-within-person-quality-audit` (AI-05): estymacja within-person (192 adoptujących vs 74 nieadoptujących) potwierdza skok przepustowości bez pogorszenia 6 metryk jakości commitów, przy jednoczesnym wzroście czasu spotkań o 20% (+16% dla technicznych IC).
+  - `anthropic-nontechnical-builders` (AI-10): 45-krotny wzrost sesji kodowania agentowego u pracowników nietechnicznych (z 2 do 90 miesięcznie) budujących własne narzędzia i integracje MCP.
+  - `anthropic-redeployment-bargain` (AI-12): trójfilarowa odpowiedź na opór przed kodyfikacją wiedzy i automatyzacją własnych zadań — współwłasność, system wczesnego ostrzegania (early warning system) oraz wewnętrzna realokacja (+50% r/r mobilności między działami).
+  - `anthropic-junior-squeeze-and-judgement` (AI-13): spadek udziału juniorów w nowych zatrudnieniach technicznych z 27% do 9% oraz przesunięcie kart ocen rekrutacyjnych z egzekucji domenowej na autonomię, osąd i elastyczność międzydomenową.
+  - `anthropic-context-observability` (AI-17): koszt niejawnych spotkań i przestarzałych dokumentów w organizacji nasyconej agentami (8500+ plików instrukcji; ryzyko błędnego routingu na podstawie nieaktualnych notatek).
+  - `anthropic-attention-bottleneck` (AI-28): agenci spędzają ok. 80% czasu sesji interaktywnych czekając na człowieka; wolumen tekstu przekracza połowę tygodnia pracy na samo czytanie, a udział „meta-pracy” rośnie z 10% do 22% sesji.
+- Łącznie: 50 rodzin źródeł i 96 przypisanych perspektyw dowodowych.
+
 ## v1.6 — 12 października 2026
 
 Zastąpienie tradycyjnego dopasowywania słów kluczowych semantycznym silnikiem rankingowym **Jev** od TypeSafe AI (inspirowanym interfejsem czytelniczym Atharvy Shaha `read.atharvashah.com`):

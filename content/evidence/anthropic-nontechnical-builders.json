@@ -1,0 +1,16 @@
+{
+  "id": "anthropic-nontechnical-builders",
+  "source_id": "S59",
+  "type": "empirical-evidence",
+  "title": "Coding agent sessions among non-technical staff surged 45x as domain specialists build custom operational software",
+  "text": "Coding-focused AI agent sessions for non-technical employees (defined as staff with zero code commits at baseline, excluding new hires) rose from 2 per month in August 2025 to 90 per month in May 2026. Sales representatives built custom UI dashboards and MCP pipeline integrations in three to four hours, finance managers built purchase-request review agents, and legal and recruiting staff deployed triage and sourcing automations.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Internal telemetry and employee interviews at Anthropic; reflects an AI-native workforce with direct access to frontier coding agents and internal MCP tooling.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "Coding-focused AI agent sessions for non-technical employees (identified as those with no code commits at baseline, excluding new hires) leapt from 2 per month in August 2025 to 90 in May 2026."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

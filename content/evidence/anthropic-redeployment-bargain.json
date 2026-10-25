@@ -1,0 +1,16 @@
+{
+  "id": "anthropic-redeployment-bargain",
+  "source_id": "S59",
+  "type": "practitioner-pattern",
+  "title": "Sustaining employee-led automation requires shared financial upside, an internal early warning system, and proactive redeployment",
+  "text": "Employees expected to codify their expertise for machines, speed-read synthetic output, and continually automate their own tasks away do not do so for free. Anthropic pairs broad employee equity ownership with an ongoing role-level early warning system (reading demand and productivity metrics against AI capability) and prioritizes internal worker reallocation over external hiring or cost-cutting layoffs. Cross-department mobility rose 50% year-over-year in 2026—for example, a product writing team that automated UI copy via context graphs rotated intact into prompt engineering and model evaluation.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "First-party organizational practice at a rapidly appreciating, high-growth AI company; commitments to internal worker reallocation carry higher economic friction in low-growth or fiercely price-competitive industries.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "At Anthropic, workers codify their expertise for the machine, see their work routines constantly roiled and disrupted, and have seen a large part of their job become speedreading the output of their AI collaborators. They do not do this for free."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

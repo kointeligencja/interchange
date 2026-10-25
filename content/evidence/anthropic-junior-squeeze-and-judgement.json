@@ -1,0 +1,16 @@
+{
+  "id": "anthropic-junior-squeeze-and-judgement",
+  "source_id": "S59",
+  "type": "empirical-evidence",
+  "title": "Junior technical hiring share dropped from 27% to 9% while interview scorecards shifted from domain implementation to autonomy and judgment",
+  "text": "As interactive AI agent hours reached 6 to 1 relative to human hours, the share of junior-level employees in technical departments fell from 21% to 14%, and the junior share of new technical hires dropped from 27% to 9% (slowing most in jobs with the highest Claude task complexity). Automated coding of thousands of hiring manager scorecards from 2024 to 2026 shows mentions of AI tool creativity tripling for technical roles and quadrupling for non-technical roles, while evaluation emphasis shifted from narrow domain execution toward candidate autonomy, judgment, and cross-domain fungibility.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Internal headcount, job posting, and interview scorecard telemetry at Anthropic; employment protection and internal reallocation for incumbents do not protect external entry-level applicants who are never hired.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "Figure 1 shows that the share of junior-level employees in technical departments at Anthropic slipped from 21% to 14% since early 2025. The proportion of junior technical hires fell even faster, from 27% to 9%."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

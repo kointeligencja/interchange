@@ -1,0 +1,16 @@
+{
+  "id": "anthropic-context-observability",
+  "source_id": "S59",
+  "type": "empirical-evidence",
+  "title": "AI-heavy workflows penalize private meetings and stale documents, forcing human decisions into observable channels",
+  "text": "When decisions occur in unlogged in-person meetings or private direct messages, autonomous agents lack the context needed to update their goals and assumptions. Conversely, stale documentation actively misroutes agents—such as a months-old document about company swag that caused agents to keep routing mug and t-shirt requests to an employee long after their responsibilities had changed. To feed agents accurate context, standing instruction files grew from a few hundred in July 2025 to 8,500 a year later, while agents appeared in nearly half of public Slack channels as per-employee sub-teams without reducing human-to-human thread density.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Internal Slack communication network analysis, telemetry, and interviews at Anthropic; high transparency requires cultural norms where leaders defend feedback openly.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "Private work, in unlogged meetings and direct messages, is invisible, confusing and discouraged in an AI-heavy workplace. ... The need to feed AI context requires observability of human work and decisions."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

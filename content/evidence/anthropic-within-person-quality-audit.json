@@ -1,0 +1,16 @@
+{
+  "id": "anthropic-within-person-quality-audit",
+  "source_id": "S59",
+  "type": "empirical-evidence",
+  "title": "Within-person staggered adoption confirms output velocity without code-quality decay, while human meeting time rises 20%",
+  "text": "Tracking 192 engineers adopting coding agents against 74 non-adopters with person and month fixed effects shows sharp increases in shipped code, contracts processed, invoices cleared, and sales closed. Commit-level comparisons of agent-written versus human-written code by the same employee in the same directory find no increase in 90-day line deletions, bug-fix deletions, explicit reverts, lint suppressions, or skipped tests. However, chasing down bugs increasingly surfaces systemic and governance trade-offs that require human convening, pushing median employee meeting time up 20% (+16% for technical individual contributors).",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Within-person two-way fixed-effects panel and commit-level quality audit at Anthropic; tool adoption timing is non-random and AI-introduced logical defects may be harder to detect than traditional human bugs.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "We compare code committed by the same employee, in the same month, in the same coding directory, but written by coding agents rather than written directly by the human employee. ... we find no difference in rates of lines of code subsequently removed or reverted."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

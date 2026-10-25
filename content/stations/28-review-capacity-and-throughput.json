@@ -4,7 +4,7 @@
   "slug": "review-capacity-and-throughput",
   "title": "Generating work faster than people can check and use it",
   "summary": "Plan the capacity to review, accept and use output—not just the capacity to generate it.",
-  "diagnosis": "Faster generation can move the constraint into testing, expert review, publication or customer adoption: individual tasks run minutes faster, yet total end-to-end cycle time remains flat because work waits in the same approval queues. In Ju’s classification, monotonic tasks can execute without coordination for correctness, whereas non-monotonic tasks still require coordination; this formal property does not determine whether human judgment or coordination for quality remains useful. Measure the queue from proposal to accepted use and decide which checking can be automated, which needs expertise and how demand should be limited while that capacity is developed.",
+  "diagnosis": "Faster generation can move the constraint into testing, expert review, publication or customer adoption: individual tasks run minutes faster, yet total end-to-end cycle time remains flat because work waits in the same approval queues. At the frontier of agent adoption, interactive agents already spend roughly 80% of session wall-clock time idly waiting on human input while producing enough text to consume over half the workweek in reading alone—pushing staff into meta-work (writing multi-agent specs, monitoring pipelines and looping one agent to review another). In Ju’s classification, monotonic tasks can execute without coordination for correctness, whereas non-monotonic tasks still require coordination; this formal property does not determine whether human judgment or coordination for quality remains useful. Measure the queue from proposal to accepted use and decide which checking can be automated, which needs expertise and how demand should be limited while that capacity is developed.",
   "diagnostic_questions": [
     "Where does generated work wait, and how much is discarded or rewritten before use?",
     "Do reviewers have time and evidence to detect the failures they are responsible for catching?",
@@ -41,7 +41,8 @@
     "ismail-congestion-coordination",
     "ju-monotonicity-coordination",
     "pucek-waste-on-cheap-thinking",
-    "willison-verification-fatigue"
+    "willison-verification-fatigue",
+    "anthropic-attention-bottleneck"
   ],
   "source_ids": [
     "S01",
@@ -52,7 +53,8 @@
     "S41",
     "S44",
     "S46",
-    "S57"
+    "S57",
+    "S59"
   ],
   "report_reference": {
     "source_id": "S01",

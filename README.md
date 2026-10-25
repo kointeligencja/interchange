@@ -1,8 +1,20 @@
-# INTERCHANGE — działająca implementacja v1.6
+# INTERCHANGE — działająca implementacja v1.7
 
 **Status: wersja do przeglądu zespołowego, nie zatwierdzona publikacja.**
 
 36 tematów o transformacji AI, sześć linii, własna mapa SVG i spokojne strony do czytania. To rzeczywisty interfejs HTML/CSS/JavaScript z pełną treścią, a nie obraz makiety. Projekt realizuje kierunek „Everything is neutral except the network”.
+
+## Zmiany v1.7 — wzbogacenie 6 stacji o badanie The Anthropic Institute (*How Employment is Changing at Anthropic*)
+
+Wydanie v1.7 dodaje rodzinę źródeł **S59** (Nathan Wilmers, Regina Catipon, Maxim Massenkoff, Peter McCrory — *How Employment is Changing at Anthropic*, z bezpośrednim linkiem do raportu PDF) oraz 6 perspektyw dowodowych:
+- **AI-05**: weryfikacja produktywności metodą staggered adoption (192 adoptujących vs 74 nieadoptujących z efektami stałymi osoby i miesiąca) oraz 6 wskaźników jakości kodu (brak wzrostu rewertów i usunięć kodu w ciągu 90 dni), przy jednoczesnym wzroście czasu spędzanego na spotkaniach o 20% (+16% dla inżynierów IC) wskutek ujawniania problemów systemowych i zarządczych (`anthropic-within-person-quality-audit`).
+- **AI-10**: 45-krotny wzrost sesji kodowania agentowego wśród pracowników nietechnicznych (z 2 do 90 miesięcznie w sprzedaży, finansach, dziale prawnym i rekrutacji) budujących własne dashboardy i integracje MCP (`anthropic-nontechnical-builders`).
+- **AI-12**: kontrakt adaptacyjny w organizacji AI-native — łączenie partycypacji kapitałowej z wewnętrznym systemem wczesnego ostrzegania (early warning system) oraz priorytetem wewnętrznej realokacji pracowników (+50% r/r mobilności międzywydziałowej) zamiast płytkiej automatyzacji kosztowej (`anthropic-redeployment-bargain`).
+- **AI-13**: spadek udziału juniorów w nowych rekrutacjach technicznych z 27% do 9% (oraz w zatrudnieniu technicznym z 21% do 14%) przy przesunięciu kart oceny kandydatów z wąskiej egzekucji domenowej na autonomię i osąd (`anthropic-junior-squeeze-and-judgement`).
+- **AI-17**: wymóg obserwowalności ludzkich decyzji — prywatne ustalenia poza logami pozbawiają agentów kontekstu, a nieaktualna dokumentacja powoduje błędne kierowanie zadań (wzrost liczby plików ze stałymi instrukcjami dla agentów do 8500+) (`anthropic-context-observability`).
+- **AI-28**: ludzka uwaga jako główne wąskie gardło przy relacji godzin pracy agentów do ludzi 6:1 — agenci spędzają ok. 80% czasu sesji interaktywnych bezczynnie czekając na człowieka, przeczytanie wygenerowanego tekstu wymagałoby ponad połowy tygodnia pracy, a udział „meta-pracy” (budowa monitorów, specyfikacji i pętli nadzoru) wzrósł z 10% do 22% sesji (`anthropic-attention-bottleneck`).
+
+Łącznie: 50 rodzin źródeł i 96 przypisanych perspektyw (86 pozycji w uniwersalnym indeksie semantycznym Jev).
 
 ## Zmiany v1.6 — semantyczny silnik wyszukiwania Jev (TypeSafe)
 

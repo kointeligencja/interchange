@@ -1,0 +1,13 @@
+{
+  "id": "S59",
+  "title": "How Employment is Changing at Anthropic",
+  "author_or_organization": "Nathan Wilmers, Regina Catipon, Maxim Massenkoff, and Peter McCrory (The Anthropic Institute)",
+  "source_type": "empirical workplace & telemetry study",
+  "date_as_supplied": "2026-10-16",
+  "original_url": "https://www-cdn.anthropic.com/72628f1863c53432195db83279252dfd2cb53158/Employment%20at%20Anthropic.pdf",
+  "limitations": "Internal mixed-methods study of Anthropic combining agent telemetry, a within-person staggered adoption panel (192 adopters vs. 74 non-adopters), commit-level code quality checks, Slack communication network graphs, calendar data, coded hiring scorecards, and 17 interviews. First-party study inside a hyper-growth AI lab with broad employee equity; tool adoption is non-random and conditions do not automatically generalize to low-growth firms.",
+  "review": {
+    "status": "pending"
+  },
+  "access": "verified-public"
+}

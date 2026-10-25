@@ -4,7 +4,7 @@
   "slug": "resistance-incentives-trust",
   "title": "Treating resistance as a training problem",
   "summary": "Address trust, incentives, workload and role uncertainty rather than assume another course will solve adoption.",
-  "diagnosis": "People may avoid a system because it previously failed, increases checking work, threatens their status or conflicts with how performance is rewarded. They may also have legitimate concerns about confidentiality or customer impact. Find the specific obstacle before designing the intervention. Honest uncertainty about role changes is more useful than an unsupported promise that nothing will change.",
+  "diagnosis": "People may avoid a system because it previously failed, increases checking work, threatens their status or conflicts with how performance is rewarded. Employees expected to codify their expertise for machines, speed-read synthetic output and continually automate their own tasks away will resist if all gains accrue elsewhere or lead to displacement. Find the specific obstacle before designing the intervention. Honest uncertainty about role changes—backed by shared upside, an early warning system for shifting roles and a commitment to internal redeployment—is more credible than an unsupported promise that nothing will change.",
   "diagnostic_questions": [
     "What happened during previous pilots, and can employees see how the current design differs?",
     "Who gains from the change and who absorbs extra work, scrutiny or uncertainty?",
@@ -35,13 +35,15 @@
   "evidence_ids": [
     "evans-jobs",
     "octopus-context-culture",
-    "brooks-workload"
+    "brooks-workload",
+    "anthropic-redeployment-bargain"
   ],
   "source_ids": [
     "S01",
     "S04",
     "S07",
-    "S34"
+    "S34",
+    "S59"
   ],
   "report_reference": {
     "source_id": "S01",

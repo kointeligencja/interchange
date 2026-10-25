@@ -1,0 +1,16 @@
+{
+  "id": "anthropic-attention-bottleneck",
+  "source_id": "S59",
+  "type": "empirical-evidence",
+  "title": "Agents spend 80% of interactive session time waiting on humans as reading volume exceeds half the workweek and meta-work doubles",
+  "text": "By August 2026, employee-directed interactive agent runtime outnumbered human work hours 6 to 1, yet subtracting active runtime from total session wall-clock time reveals that Claude sessions spend roughly 80% of their time idly waiting for human input. Converting interactive output tokens to word counts at 250 words per minute shows that reading all agent output would consume over half the workweek for non-technical staff and more than a full workweek for technical teams. In response, employees shifted from direct execution to meta-work—rising from 10% of interactive sessions in fall 2025 to 22% in spring 2026—building agent monitors, writing multi-agent specs, and looping one agent to review another.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Internal session telemetry and automated chat-summary classification (sample of 2,000 sessions) at Anthropic; reading-time estimates assume 0.75 words per token and 250 words per minute.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "Claude sessions amount to around 80% idly waiting for human input. As one engineer put it, people are “bottlenecking the agents.” ... Figure 7 shows that this kind of meta-work leapt from 10% of the average employee’s interactive Claude sessions in fall 2025 to 22% in spring 2026."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

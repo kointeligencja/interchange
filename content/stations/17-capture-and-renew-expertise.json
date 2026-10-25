@@ -4,7 +4,7 @@
   "slug": "capture-and-renew-expertise",
   "title": "Leaving essential business rules in people’s heads",
   "summary": "Capture decision-relevant expertise while preserving the people and practice that keep it current.",
-  "diagnosis": "A process can depend on an experienced colleague’s recognition of exceptions that never appear in a manual. Capturing this knowledge requires cases, reasoning and applicability—not just recording a meeting. Elicitation also faces trust barriers: specialists hesitate to codify tacit expertise if they anticipate it diminishes their future standing. Runtime decision traces can complement static documentation by recording how real exceptions were resolved (inputs, policy invoked, approver, precedent). Assign stewardship and preserve opportunities for future experts to learn through supervised work.",
+  "diagnosis": "A process can depend on an experienced colleague’s recognition of exceptions that never appear in a manual. Capturing this knowledge requires cases, reasoning and applicability—not just recording a meeting. In agent-heavy workplaces, unlogged in-person meetings and private direct messages leave autonomous agents blind to updated goals, while stale documentation actively misroutes agent actions long after human responsibilities have changed. Elicitation also faces trust barriers: specialists hesitate to codify tacit expertise if they anticipate it diminishes their future standing. Runtime decision traces and observable public channels can complement static documentation by recording how real exceptions were resolved (inputs, policy invoked, approver, precedent). Assign stewardship and preserve opportunities for future experts to learn through supervised work.",
   "diagnostic_questions": [
     "Which decisions repeatedly require a particular person, and what makes those cases unusual?",
     "Can experts explain the evidence, tradeoffs and circumstances under which a rule should not apply?",
@@ -38,14 +38,16 @@
     "tacit-curators",
     "sphere-artifacts",
     "blomfield-memory",
-    "ismail-decision-traces"
+    "ismail-decision-traces",
+    "anthropic-context-observability"
   ],
   "source_ids": [
     "S01",
     "S10",
     "S30",
     "S35",
-    "S42"
+    "S42",
+    "S59"
   ],
   "report_reference": {
     "source_id": "S01",
