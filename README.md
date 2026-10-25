@@ -87,12 +87,12 @@ npm run build
 
 - Sześć ciągłych tras SVG i wszystkie 36 stacji; podgląd po najechaniu/fokusie, wybór linii, przejście do artykułu.
 - 36 pełnych dokumentów: diagnoza, pytania, perspektywy źródłowe, możliwe działania, ograniczenia, przykłady hipotetyczne i powiązane tematy.
-- Pełny indeks, wyszukiwanie lokalne, katalog oryginalnych źródeł, trzy ścieżki czytania i cztery proponowane powiązania.
+- Pełny indeks, wyszukiwanie lokalne i semantyczne (Jev), katalog oryginalnych źródeł, trzy ścieżki czytania i dziesięć proponowanych powiązań.
 - Mobilna lista stacji na pionowej linii, obsługa klawiatury, ograniczonego ruchu oraz użyteczny indeks bez JavaScript.
 - Zapisywanie tematów w tej przeglądarce, kopiowanie linku i szablonu roboczego; bez kont i analityki.
 - Budowanie statycznych stron, walidacja danych, testy, kontrola linków wewnętrznych, obsługa subścieżki i blokada niezatwierdzonej publikacji.
 
-Wersja zawiera **58 stron**, **37 rodzin źródłowych z dostarczonymi publicznymi URL** i **74 przypisane perspektywy**. Te liczby nie oznaczają niezależnej weryfikacji źródeł. Treść i interfejs pozostają po angielsku, zgodnie z materiałem wejściowym. Instrukcja dla zespołu jest po polsku.
+Wersja zawiera **64 strony**, **50 rodzin źródłowych z dostarczonymi publicznymi URL** i **96 przypisanych perspektyw** (86 obiektów w indeksie semantycznym Jev). Te liczby nie oznaczają niezależnej weryfikacji źródeł. Treść i interfejs pozostają po angielsku, zgodnie z materiałem wejściowym. Instrukcja dla zespołu jest po polsku.
 
 ## Architektura — ważne rozróżnienie
 
