@@ -224,13 +224,14 @@
 
     async function pinpointInStation(query){
       const doc=document.querySelector('.reading-document');
-      if(!doc||!query.trim())return;
+      if(!doc||!query.trim())return { found: false };
       const candidates=Array.from(doc.querySelectorAll('p, li, .working-artifact p'))
         .filter(el=>!el.closest('.meta, nav, .article-rail, .rail-actions, footer')&&el.textContent.trim().length>20);
-      if(!candidates.length)return;
+      if(!candidates.length)return { found: false };
 
       const passages=candidates.map((el,i)=>({id:'p'+i,text:el.textContent.trim()}));
       let topMatch=null;
+      let evaluatedAnswer=null;
 
       try{
         const res=await fetch('/api/search/',{
@@ -240,9 +241,16 @@
         });
         if(res.ok){
           const body=await res.json();
+          evaluatedAnswer=body.hasAnswer;
           topMatch=body.top;
         }
       }catch{}
+
+      // Guardrail from TypeSafe semantic_find cookbook:
+      // If server explicitly evaluated hasAnswer === false, do not fall back to loose matches.
+      if(evaluatedAnswer===false){
+        return { found: false, hasAnswer: false };
+      }
 
       if(!topMatch){
         const qWords=normaliseQuery(query).split(' ').filter(Boolean);
@@ -260,6 +268,9 @@
             }
           });
         });
+        if(bestScore===0){
+          topMatch=null;
+        }
       }
 
       if(topMatch&&topMatch.focusText){
@@ -267,10 +278,10 @@
         const targetEl=candidates[idx];
         if(targetEl){
           highlightSentence(targetEl,topMatch.focusText);
-          return { found: true, text: topMatch.focusText };
+          return { found: true, text: topMatch.focusText, probability: topMatch.probability };
         }
       }
-      return { found: false };
+      return { found: false, hasAnswer: false };
     }
 
     const stationPage=document.querySelector('[data-station-page]');

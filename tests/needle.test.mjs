@@ -21,6 +21,7 @@ test('sentenceSpans handles empty or invalid text safely', () => {
 import { loadRaw } from '../src/load.mjs';
 import { project, stationPath } from '../src/domain.mjs';
 import { createRenderer } from '../src/render.mjs';
+import { pinpointWithJev } from '../api/search.js';
 
 test('every station renders clean reading layout without intrusive search bars', () => {
   const data = loadRaw();
@@ -34,4 +35,30 @@ test('every station renders clean reading layout without intrusive search bars',
     assert.ok(!page.body.includes('data-needle-input'), `Station ${s.id} should not contain data-needle-input`);
     assert.ok(!page.body.includes('station-needle-bar'), `Station ${s.id} should not have station-needle-bar in reading body`);
   }
+});
+
+test('pinpointWithJev identifies matching sentence when query relates to content', async () => {
+  const passages = [
+    { id: 'p0', text: 'Large language models suffer from hallucinations and compounding errors when unchecked.' },
+    { id: 'p1', text: 'Human unit review time HURT is a key operational metric measuring verification latency.' },
+    { id: 'p2', text: 'Decoupling cognitive drafting from fiduciary accountability creates defensible margins.' }
+  ];
+
+  const res = await pinpointWithJev('HURT review time metric', passages);
+  assert.equal(res.hasAnswer, true);
+  assert.ok(res.top);
+  assert.equal(res.top.id, 'p1');
+  assert.ok(res.top.focusText.includes('Human unit review time HURT'));
+});
+
+test('pinpointWithJev rejects completely unrelated queries without false positive highlights', async () => {
+  const passages = [
+    { id: 'p0', text: 'Large language models suffer from hallucinations and compounding errors when unchecked.' },
+    { id: 'p1', text: 'Human unit review time HURT is a key operational metric measuring verification latency.' }
+  ];
+
+  const res = await pinpointWithJev('pineapple pizza mozzarella baking temperature', passages);
+  assert.equal(res.hasAnswer, false);
+  assert.equal(res.top, null);
+  assert.deepEqual(res.matches, []);
 });

@@ -87,6 +87,12 @@ async function pinpointWithJev(query, passages) {
   try {
     if (apiKey) {
       const questions = {};
+      // Guardrail Noul question per TypeSafe semantic_find cookbook
+      questions['has_answer'] = {
+        type: 'noul',
+        instructions: `Does this document contain any passage directly answering, discussing, or providing relevant context for: "${query}"?`
+      };
+
       for (const p of passages) {
         questions[p.id] = {
           type: 'noul',
@@ -125,6 +131,23 @@ async function pinpointWithJev(query, passages) {
         const qNorm = normaliseText(query);
         const qWords = qNorm.split(' ').filter(w => w.length > 2);
 
+        // Guardrail evaluation per TypeSafe semantic_find cookbook
+        const hasAnsVal = answers['has_answer'];
+        const hasAnswerProb = typeof hasAnsVal?.noul === 'number'
+          ? Math.round(hasAnsVal.noul * 100) / 100
+          : (typeof hasAnsVal?.probability === 'number' ? hasAnsVal.probability : null);
+
+        // If confidence is below 0.35, reject as not found on this station
+        if (hasAnswerProb !== null && hasAnswerProb < 0.35) {
+          return {
+            matches: [],
+            top: null,
+            hasAnswer: false,
+            hasAnswerProb,
+            provider: 'typesafe-jev'
+          };
+        }
+
         const scored = passages.map(p => {
           const ans = answers[p.id];
           const prob = typeof ans?.noul === 'number' ? Math.round(ans.noul * 100) / 100 : (ans?.probability ?? 0.5);
@@ -161,6 +184,8 @@ async function pinpointWithJev(query, passages) {
         return {
           matches: scored,
           top: scored[0] || null,
+          hasAnswer: true,
+          hasAnswerProb: hasAnswerProb ?? (scored[0]?.probability ?? null),
           provider: 'typesafe-jev'
         };
       } else {
@@ -175,6 +200,7 @@ async function pinpointWithJev(query, passages) {
 
   // Fallback: local semantic / token pinpointing
   const qWords = normaliseText(query).split(' ').filter(Boolean);
+  let globalMaxScore = 0;
   const scored = passages.map(p => {
     const sentences = sentenceSpans(p.text);
     let bestScore = 0;
@@ -191,13 +217,16 @@ async function pinpointWithJev(query, passages) {
         bestSentence = s.text;
       }
     }
+    if (bestScore > globalMaxScore) globalMaxScore = bestScore;
     const prob = Math.min(0.95, Math.max(0.1, Math.round((bestScore * 0.8 + 0.15) * 100) / 100));
     return { id: p.id, probability: prob, focusText: bestSentence, fullText: p.text };
   }).sort((a, b) => b.probability - a.probability);
 
+  const hasAnswer = globalMaxScore > 0;
   return {
-    matches: scored,
-    top: scored[0] || null,
+    matches: hasAnswer ? scored : [],
+    top: hasAnswer ? (scored[0] || null) : null,
+    hasAnswer,
     provider: 'local-needle',
     ...(directError ? { directError } : {})
   };
@@ -360,3 +389,5 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: err.message || 'Internal error' });
   }
 }
+
+export { pinpointWithJev, rankWithJev, fallbackScoring, sentenceSpans };
