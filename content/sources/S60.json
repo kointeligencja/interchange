@@ -1,0 +1,13 @@
+{
+  "id": "S60",
+  "title": "Databricks & the Future of the Firm",
+  "author_or_organization": "Ben Horowitz and Michael McGuiness (Andreessen Horowitz, Profiles of the Future)",
+  "source_type": "venture capital essay & organizational thesis",
+  "date_as_supplied": "2026-10-27",
+  "original_url": "https://a16z.com/databricks-the-future-of-the-firm/",
+  "limitations": "Investor-authored profile: a16z led Databricks’ Series A and Series C, and Ben Horowitz writes as a long-standing backer. Company metrics (revenue run rate, growth, valuation, agent-launched databases per day) and the OntoRank accuracy result (about 50% to 84.5%) are first-party or investor-reported and not independently audited. Customer vignettes (Novo Nordisk, Rivian, Block) are illustrative. Product names describe one vendor’s implementation; the organizational arguments (Coase, Simon, Burnham) are conceptual rather than empirical.",
+  "review": {
+    "status": "pending"
+  },
+  "access": "verified-public"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "horowitz-centralized-state-decentralized-action",
+  "source_id": "S60",
+  "type": "organizational-theory",
+  "title": "Centralising state and guardrails is what allows decentralised people and agents to act",
+  "text": "Drawing on Herbert Simon, the essay argues that a shared record lets decentralised decision points act independently because actions are reconciled against the record rather than negotiated through people—an airline ticket agent consults the record instead of calling every other agent. Applied to AI, the firm should centralise state, ontology, permissions and accountability while decentralising who can ask questions, design workflows and act, so frontline experts no longer queue behind a central data team.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Conceptual argument supported by customer anecdotes (Novo Nordisk, Rivian), not by measured comparisons of central-team throughput. Centralised guardrails can themselves become a bottleneck if ownership of definitions and permissions is unclear.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "Centralized state made decentralized action safer because people could coordinate with the record instead of with each other. ... The system of record centralizes state and guardrails while decentralizing who can ask questions, design workflows, and act."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

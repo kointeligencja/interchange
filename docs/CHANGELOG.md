@@ -1,5 +1,19 @@
 # Changelog implementacji
 
+## v1.8 — 31 października 2026
+
+Wzbogacono 5 stacji o esej Bena Horowitza i Michaela McGuinessa (Andreessen Horowitz, *Databricks & the Future of the Firm*, 27 października 2026):
+- Dodano rekord źródła `content/sources/S60.json` z bezpośrednim linkiem do oryginału (`https://a16z.com/databricks-the-future-of-the-firm/`, `access: verified-public`; HTTP 200 i tytuł potwierdzone 2026-10-31).
+- Dodano 5 perspektyw (`content/evidence/`), każda z dosłownym cytatem (`public_locator.kind: quote`) sprawdzonym z tekstem strony kanonicznej:
+  - `horowitz-centralized-state-decentralized-action` (AI-08)
+  - `horowitz-everyone-a-manager` (AI-13)
+  - `horowitz-shared-storage-branching` (AI-14)
+  - `horowitz-ontology-authority` (AI-15)
+  - `horowitz-sovereign-firm` (AI-32)
+- Dodano po jednym zdaniu kwalifikującym do diagnoz AI-08, AI-15 i AI-32.
+- Ograniczenia źródła: tekst inwestora Databricks; metryki firmy i wynik OntoRank są nieaudytowane; nazwy produktów opisują jedną implementację.
+- Łącznie: 51 rodzin źródeł i 101 przypisanych perspektyw dowodowych. Wszystkie nowe rekordy mają status `pending`.
+
 ## v1.7 — 25 października 2026
 
 Wzbogacono 6 stacji o empiryczne dane wewnątrzfirmowe z raportu The Anthropic Institute (*How Employment is Changing at Anthropic*, Wilmers et al., październik 2026):

@@ -38,14 +38,16 @@
     "pierce-staged-migration",
     "reshuffle-coordination",
     "sphere-evidence-limits",
-    "ismail-data-plane-inversion"
+    "ismail-data-plane-inversion",
+    "horowitz-shared-storage-branching"
   ],
   "source_ids": [
     "S02",
     "S22",
     "S28",
     "S30",
-    "S42"
+    "S42",
+    "S60"
   ],
   "report_reference": null,
   "review": {

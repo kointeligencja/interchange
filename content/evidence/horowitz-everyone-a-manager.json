@@ -1,0 +1,16 @@
+{
+  "id": "horowitz-everyone-a-manager",
+  "source_id": "S60",
+  "type": "counterpoint",
+  "title": "As execution gets cheaper, more people specify, delegate and judge work—management loses its monopoly, not its purpose",
+  "text": "Revisiting James Burnham’s The Managerial Revolution, the essay argues that AI erodes the information-routing role that gave professional managers power, yet the near-term result looks like more people managing: specifying work, delegating execution to agents, inspecting results and updating the process. Because execution and judgment are economic complements, cheaper execution raises demand for the judgment that directs it. It also records Ali Ghodsi’s qualification of Block’s flatter model: firms still need managers for developing people and setting priorities, just fewer information routers.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Interpretive, historical argument with no workforce data; it complements rather than replaces empirical findings on review bottlenecks (S59). The complementarity claim may not hold for roles where judgement itself is being automated or where entry-level learning paths disappear.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "The second managerial revolution is not so much the death of management as it is the end of the professional managerial class’s monopoly on it. ... execution and judgment are economic complements: when AI reduces the cost of routine execution, demand rises for the judgment that directs it."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

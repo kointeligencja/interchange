@@ -1,0 +1,16 @@
+{
+  "id": "horowitz-shared-storage-branching",
+  "source_id": "S60",
+  "type": "practitioner-pattern",
+  "title": "Operational and analytical data on shared storage lets agents experiment on isolated, disposable branches",
+  "text": "The essay traces how separating storage from compute, first for analytics (the lakehouse) and then for operational databases, lets transactional changes become available to analysts, engineers and agents without a web of pipelines. Because only changes are copied, large databases can be branched in seconds, so an agent can create an isolated copy, experiment and discard it—an alternative to running every experiment against production data or waiting for a full migration.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Architectural claim from an investor in the vendor that sells this architecture. Branching reduces experimentation risk but does not by itself resolve data quality, semantics or access rights; migration cost and lock-in to the storage format remain relevant (see AI-32).",
+  "public_locator": {
+    "kind": "quote",
+    "value": "And because operational databases and the lakehouse share the same underlying storage, database changes automatically become available to analysts, engineers, and agents, without a web of pipelines to build and maintain. ... Even petabyte-scale databases can be duplicated in seconds because Lakebase only copies the changes."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

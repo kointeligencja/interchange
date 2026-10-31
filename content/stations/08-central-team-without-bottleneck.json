@@ -4,7 +4,7 @@
   "slug": "central-team-without-bottleneck",
   "title": "Building a central AI team that becomes everyone’s bottleneck",
   "summary": "Centralise reusable support and essential controls while keeping local outcomes and workflow knowledge close to the work.",
-  "diagnosis": "Central expertise is valuable, but a central team asked to discover, build, approve and support every use case becomes a queue. Unrestricted decentralisation creates a different problem: duplicated integrations, inconsistent controls and unowned applications. Distinguish shared capabilities from local delivery decisions, and make the route for obtaining help explicit.",
+  "diagnosis": "Central expertise is valuable, but a central team asked to discover, build, approve and support every use case becomes a queue. Unrestricted decentralisation creates a different problem: duplicated integrations, inconsistent controls and unowned applications. Distinguish shared capabilities from local delivery decisions, and make the route for obtaining help explicit. Centralising shared state, definitions and guardrails can be what allows local teams to act without queueing: people coordinate with the record rather than through the central team.",
   "diagnostic_questions": [
     "Which requests genuinely need specialist central work, and which are waiting for permission or reusable components?",
     "Can business teams build within a supported path without bypassing controls?",
@@ -36,13 +36,15 @@
     "levie-operating-model",
     "octopus-guardrails",
     "octopus-context-culture",
-    "every-company-agents"
+    "every-company-agents",
+    "horowitz-centralized-state-decentralized-action"
   ],
   "source_ids": [
     "S01",
     "S02",
     "S03",
-    "S04"
+    "S04",
+    "S60"
   ],
   "report_reference": {
     "source_id": "S01",

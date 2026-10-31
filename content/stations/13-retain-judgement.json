@@ -39,7 +39,8 @@
     "every-visible-delegation",
     "ismail-validator-loop",
     "bek-intelligence-vs-judgement",
-    "anthropic-junior-squeeze-and-judgement"
+    "anthropic-junior-squeeze-and-judgement",
+    "horowitz-everyone-a-manager"
   ],
   "source_ids": [
     "S01",
@@ -49,7 +50,8 @@
     "S35",
     "S42",
     "S47",
-    "S59"
+    "S59",
+    "S60"
   ],
   "report_reference": {
     "source_id": "S01",

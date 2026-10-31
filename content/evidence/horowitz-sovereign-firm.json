@@ -1,0 +1,16 @@
+{
+  "id": "horowitz-sovereign-firm",
+  "source_id": "S60",
+  "type": "diagnosis",
+  "title": "Portability that matters is keeping what the firm learned—definitions, overrides, evaluated cases—when the model changes",
+  "text": "The essay contrasts two banks renting the same frontier model for credit decisions. One records only the final decision; the other records which facts produced the answer, human overrides and which decisions performed well or failed, and adjusts its policy. When a better model arrives, only the second has built a better bank, and it can switch providers without losing what it learned. The authors stress that ownership alone is not a moat; the advantage comes from improving decisions faster than competitors.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Illustrative thought experiment from a vendor investor whose platform is positioned as the place to keep this record; moving the ‘sovereign’ layer onto any single data platform creates its own dependence that should be tested like a model dependency.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "If you replace the AI model at your company and the new one inherits your definitions, permissions, evaluated cases, customer history, and hard-won exceptions, that is a foundation for a sustainable competitive advantage. ... Ownership alone is not a moat, but it prevents the firm’s memory from becoming trapped in some vendor’s stack."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

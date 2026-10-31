@@ -1,0 +1,16 @@
+{
+  "id": "horowitz-ontology-authority",
+  "source_id": "S60",
+  "type": "diagnosis",
+  "title": "Business meaning needs a ranked, maintained ontology—not just retrieval over everything",
+  "text": "The essay argues that every company already has an ontology—what exists, how things relate, what words mean and which source governs when two disagree—but much of it lives only in experienced employees’ heads and drifts as contracts, workarounds and exceptions change. Instead of letting an agent search all company data for each question, it describes continuously building a graph of organizational knowledge and ranking which definitions are authoritative by who created them, how widely they are used and how recently they changed.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Describes one vendor’s approach (Genie Ontology / OntoRank). The reported accuracy gain from about 50% to 84.5% is a first-party test without a published benchmark or method; treat authority ranking as a design pattern, not a proven fix for genuine business disagreement.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "An algorithm the engineers dubbed OntoRank (a nod to Google’s PageRank) ranks which knowledge is authoritative by weighing attributes like who created a definition, how widely it’s used, and how recently it changed. In Databricks’ testing, grounding an agent in the company’s ontology raised the accuracy of answers from about 50% to 84.5%."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

@@ -1,8 +1,21 @@
-# INTERCHANGE — działająca implementacja v1.7
+# INTERCHANGE — działająca implementacja v1.8
 
 **Status: wersja do przeglądu zespołowego, nie zatwierdzona publikacja.**
 
 36 tematów o transformacji AI, sześć linii, własna mapa SVG i spokojne strony do czytania. To rzeczywisty interfejs HTML/CSS/JavaScript z pełną treścią, a nie obraz makiety. Projekt realizuje kierunek „Everything is neutral except the network”.
+
+## Zmiany v1.8 — wzbogacenie 5 stacji o esej a16z (*Databricks & the Future of the Firm*)
+
+Wydanie v1.8 dodaje rodzinę źródeł **S60** (Ben Horowitz i Michael McGuiness, Andreessen Horowitz — *Databricks & the Future of the Firm*, 27 października 2026, z bezpośrednim linkiem do oryginału na a16z.com) oraz 5 perspektyw dowodowych z dosłownymi cytatami sprawdzonymi z kanoniczną stroną:
+- **AI-08**: zasada Herberta Simona — scentralizowany stan i zabezpieczenia umożliwiają zdecentralizowane działanie; ludzie koordynują się z rejestrem, a nie przez centralny zespół (`horowitz-centralized-state-decentralized-action`).
+- **AI-13**: „druga rewolucja menedżerska” (odwrócenie tezy Burnhama) — egzekucja i osąd są komplementarne; zarządzanie traci monopol, nie cel; zastrzeżenie Alego Ghodsiego wobec modelu Block (`horowitz-everyone-a-manager`).
+- **AI-14**: wspólny magazyn danych operacyjnych i analitycznych oraz izolowane, jednorazowe gałęzie baz danych do eksperymentów agentów (`horowitz-shared-storage-branching`).
+- **AI-15**: utrzymywana ontologia z rankingiem autorytetu definicji (autor, zasięg użycia, aktualność) zamiast wyszukiwania po wszystkich danych (`horowitz-ontology-authority`).
+- **AI-32**: „suwerenna firma” — przenośność tego, czego firma się nauczyła (definicje, uprawnienia, ocenione przypadki, korekty ludzi), a nie tylko interfejsu modelu (`horowitz-sovereign-firm`).
+
+Zastrzeżenie: autorzy są inwestorami Databricks (a16z prowadził rundy A i C). Metryki firmy i wynik OntoRank (ok. 50% → 84,5%) są deklaracjami własnymi; perspektywy opisują mechanizmy, nie rekomendację dostawcy.
+
+Łącznie: 51 rodzin źródeł i 101 przypisanych perspektyw (87 pozycji w uniwersalnym indeksie semantycznym Jev).
 
 ## Zmiany v1.7 — wzbogacenie 6 stacji o badanie The Anthropic Institute (*How Employment is Changing at Anthropic*)
 
@@ -92,7 +105,7 @@ npm run build
 - Zapisywanie tematów w tej przeglądarce, kopiowanie linku i szablonu roboczego; bez kont i analityki.
 - Budowanie statycznych stron, walidacja danych, testy, kontrola linków wewnętrznych, obsługa subścieżki i blokada niezatwierdzonej publikacji.
 
-Wersja zawiera **64 strony**, **50 rodzin źródłowych z dostarczonymi publicznymi URL** i **96 przypisanych perspektyw** (86 obiektów w indeksie semantycznym Jev). Te liczby nie oznaczają niezależnej weryfikacji źródeł. Treść i interfejs pozostają po angielsku, zgodnie z materiałem wejściowym. Instrukcja dla zespołu jest po polsku.
+Wersja zawiera **64 strony**, **51 rodzin źródłowych z dostarczonymi publicznymi URL** i **101 przypisanych perspektyw** (87 obiektów w indeksie semantycznym Jev). Te liczby nie oznaczają niezależnej weryfikacji źródeł. Treść i interfejs pozostają po angielsku, zgodnie z materiałem wejściowym. Instrukcja dla zespołu jest po polsku.
 
 ## Architektura — ważne rozróżnienie
 
