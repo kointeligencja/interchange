@@ -1,8 +1,21 @@
-# INTERCHANGE — działająca implementacja v1.8
+# INTERCHANGE — działająca implementacja v1.9
 
 **Status: wersja do przeglądu zespołowego, nie zatwierdzona publikacja.**
 
 36 tematów o transformacji AI, sześć linii, własna mapa SVG i spokojne strony do czytania. To rzeczywisty interfejs HTML/CSS/JavaScript z pełną treścią, a nie obraz makiety. Projekt realizuje kierunek „Everything is neutral except the network”.
+
+## Zmiany v1.9 — wzbogacenie 5 stacji o esej DeepMind Institute (*The Economics of Intelligence*)
+
+Wydanie v1.9 dodaje rodzinę źródeł **S61** (Alex Imas, Andrew Koh i Shane Legg, DeepMind Institute — *The Economics of Intelligence: How and when does AGI lead to economic transformation?*, 29 października 2026, z bezpośrednim linkiem do oryginału na `institute.deepmind.com`) oraz 5 perspektyw dowodowych z dosłownymi cytatami sprawdzonymi ze stroną kanoniczną:
+- **AI-05**: płace i struktura ról zmieniają się przed widoczną restrukturyzacją firm i makrostatystykami zatrudnienia (`deepmind-wages-move-before-org-charts`).
+- **AI-08**: koordynatorzy jako mnożniki „inteligencji mozaikowej” (+32% przewagi par komplementarnych nad losowymi w teście 100 osób i 6 domen) — ograniczanie tarcia na przekazaniach między specjalistami (`deepmind-coordinators-as-mosaic-multipliers`).
+- **AI-13**: nawet przy AI przewyższającym każdego specjalistę z osobna (*Supercompetent AI*), przy ograniczonej koordynacji przewaga ludzi przesuwa się ku osądowi, wyznaczaniu kierunku, architekturze koordynacji i sektorowi relacyjnemu (`deepmind-supercompetent-human-advantage`).
+- **AI-25**: skorelowane błędy kopii tego samego modelu i potrzeba ewaluacji „organizacji agentów” (podział pracy, czyste przekazanie kontekstu, wyłapywanie błędów zamiast ich kumulowania) (`deepmind-organization-level-benchmarks`).
+- **AI-28**: rozdzielenie kompetencji od koordynacji w prawach skalowania organizacyjnego — poniżej progu *supercooperative* dodawanie kolejnych agentów szybko wpada w malejące przychody (`deepmind-coordination-vs-competence-scaling`).
+
+Zastrzeżenie: esej teorii równowagi (oparty na pracy *Organizing Intelligence*, `arXiv:2611.05417`) z jednym stylizowanym badaniem quizowym (N=100) oraz zastrzeżeniem DMI, że nie jest to oficjalne stanowisko Google.
+
+Łącznie: 52 rodziny źródeł i 106 przypisanych perspektyw (88 pozycji w uniwersalnym indeksie semantycznym Jev).
 
 ## Zmiany v1.8 — wzbogacenie 5 stacji o esej a16z (*Databricks & the Future of the Firm*)
 
@@ -105,7 +118,7 @@ npm run build
 - Zapisywanie tematów w tej przeglądarce, kopiowanie linku i szablonu roboczego; bez kont i analityki.
 - Budowanie statycznych stron, walidacja danych, testy, kontrola linków wewnętrznych, obsługa subścieżki i blokada niezatwierdzonej publikacji.
 
-Wersja zawiera **64 strony**, **51 rodzin źródłowych z dostarczonymi publicznymi URL** i **101 przypisanych perspektyw** (87 obiektów w indeksie semantycznym Jev). Te liczby nie oznaczają niezależnej weryfikacji źródeł. Treść i interfejs pozostają po angielsku, zgodnie z materiałem wejściowym. Instrukcja dla zespołu jest po polsku.
+Wersja zawiera **64 strony**, **52 rodziny źródłowe z dostarczonymi publicznymi URL** i **106 przypisanych perspektyw** (88 obiektów w indeksie semantycznym Jev). Te liczby nie oznaczają niezależnej weryfikacji źródeł. Treść i interfejs pozostają po angielsku, zgodnie z materiałem wejściowym. Instrukcja dla zespołu jest po polsku.
 
 ## Architektura — ważne rozróżnienie
 

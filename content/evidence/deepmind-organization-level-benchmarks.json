@@ -1,0 +1,16 @@
+{
+  "id": "deepmind-organization-level-benchmarks",
+  "source_id": "S61",
+  "type": "challenge",
+  "title": "Solo leaderboards miss correlated model blind spots and multi-agent error compounding",
+  "text": "Unlike human specialists whose strengths and gaps differ across individuals, copies of an AI model share correlated jaggedness—adding capacity without complementary breadth. Because single-agent benchmarks test models in isolation, they overstate competitive readiness against mosaic human teams; evaluation must expand to organizational benchmarks measuring task decomposition, clean state handoffs, and whether agents catch rather than compound each other’s errors.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Normative critique of prevailing AI leaderboards synthesizing arXiv:2512.15567 on correlated AI errors and arXiv:2611.05417; standard multi-agent organizational benchmarks remain nascent.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "Alongside individual leaderboards, we need benchmarks for organizations of agents: measuring how well multi-agent systems divide unfamiliar problems without duplicating work, share context cleanly across handoffs, and catch rather than compound one another’s mistakes over long horizons."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

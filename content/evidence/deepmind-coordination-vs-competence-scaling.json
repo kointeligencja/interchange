@@ -1,0 +1,16 @@
+{
+  "id": "deepmind-coordination-vs-competence-scaling",
+  "source_id": "S61",
+  "type": "qualification",
+  "title": "Competence lifts output level smoothly while coordination governs scale—and swarms still hit diminishing returns",
+  "text": "Decomposing organizational capability into competence (output per worker at fixed size) and coordination (returns to adding members) explains why current agent deployments hit a ceiling. Individual model competence is rising rapidly, yet multi-agent coordination remains below the 'supercooperative' threshold—illustrated by Noam Brown’s observation attributing under 10% credit to multi-agent coordination on open math problems—so spinning up larger agent swarms quickly runs into diminishing returns.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Qualitative frontier observation paired with an organizational scaling-law model; future advances in shared state, context passing, or agent protocols could shift the coordination curve.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "AI models are getting exponentially better in individual competence while lagging behind in coordination. Across dozens of professions, models already match or outperform experienced specialists on self-contained deliverables. Spin up a swarm of agents, however, and output still runs quickly into diminishing returns."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

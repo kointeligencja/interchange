@@ -1,0 +1,16 @@
+{
+  "id": "deepmind-supercompetent-human-advantage",
+  "source_id": "S61",
+  "type": "economic-theory",
+  "title": "Even when AI surpasses every individual specialist, bounded coordination shifts human value to judgment, orchestration, and relational work",
+  "text": "In a 'supercompetent AI' regime where models outperform human experts on standalone tasks while coordination remains bounded, firms shrink rather than monopolize ('abundance without concentration'). Because routine specialist execution falls toward compute cost, human comparative advantage shifts to setting direction, orchestrating agentic teams, designing coordination architecture, and delivering relational services where human presence is part of the core product.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Conceptual regime analysis conditioned on coordination staying below the supercooperative threshold; if both competence and coordination thresholds are crossed (ASI), only relational and newly invented work retain structural shelter.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "People do not vanish from production; their comparative advantage shifts toward judgment, orchestration, and creating the architecture for effective coordination."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

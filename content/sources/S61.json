@@ -1,0 +1,13 @@
+{
+  "id": "S61",
+  "title": "The Economics of Intelligence: How and when does AGI lead to economic transformation?",
+  "author_or_organization": "Alex Imas, Andrew Koh, and Shane Legg (DeepMind Institute)",
+  "source_type": "economic theory essay & organizational scaling framework",
+  "date_as_supplied": "2026-10-29",
+  "original_url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/",
+  "limitations": "Conceptual and equilibrium-modeling essay drawing on the working paper Organizing Intelligence (arXiv:2611.05417) rather than firm-level causal econometrics. Its primary original empirical illustration is a stylized 100-person, six-domain quiz (+32% gain for complementary vs. random pairings), supplemented by qualitative industry observations (such as Noam Brown on multi-agent math runs). Carries the official DMI disclaimer that it reflects the authors’ research rather than Google’s corporate view; whether and when multi-agent systems cross the supercooperative threshold remains an open empirical question.",
+  "review": {
+    "status": "pending"
+  },
+  "access": "verified-public"
+}

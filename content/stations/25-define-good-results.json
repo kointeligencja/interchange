@@ -4,11 +4,12 @@
   "slug": "define-good-results",
   "title": "Building before agreeing what a good result looks like",
   "summary": "Turn business expectations into representative cases, acceptance criteria and boundaries for abstention.",
-  "diagnosis": "Without an agreed standard, a team can improve fluent output while disagreeing about whether it is useful or safe. Start with real work and the people who can judge it. Define unacceptable failures and when the correct response is to ask for help. Preserve verified corrections as tests, while avoiding a test set that becomes only a record of past successes.",
+  "diagnosis": "Without an agreed standard, a team can improve fluent output while disagreeing about whether it is useful or safe. Start with real work and the people who can judge it. Define unacceptable failures and when the correct response is to ask for help. Preserve verified corrections as tests, while avoiding a test set that becomes only a record of past successes. Evaluating single models in isolation misses correlated blind spots shared across copies of the same model; multi-agent workflows require team-level checks on task decomposition, context handoffs, and whether agents catch rather than compound errors.",
   "diagnostic_questions": [
     "Can domain experts agree on why a result is acceptable, unacceptable or requires clarification?",
     "Do the examples reflect the actual range of tasks and important exceptions?",
-    "What happens to a verified correction after the immediate incident is resolved?"
+    "What happens to a verified correction after the immediate incident is resolved?",
+    "Are we testing only solo model outputs, or also multi-agent task decomposition, context handoffs, and error catching across steps?"
   ],
   "proposed_actions": [
     "Collect representative cases with source evidence, expected behaviour and a rationale; involve business experts in resolving disagreement.",
@@ -35,13 +36,15 @@
   "evidence_ids": [
     "every-eval-before-runtime",
     "twelve-rubrics-traces",
-    "tacit-curators"
+    "tacit-curators",
+    "deepmind-organization-level-benchmarks"
   ],
   "source_ids": [
     "S01",
     "S03",
     "S10",
-    "S36"
+    "S36",
+    "S61"
   ],
   "report_reference": {
     "source_id": "S01",

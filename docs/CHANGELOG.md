@@ -1,5 +1,19 @@
 # Changelog implementacji
 
+## v1.9 — 18 listopada 2026
+
+Wzbogacono 5 stacji o esej DeepMind Institute (*The Economics of Intelligence: How and when does AGI lead to economic transformation?*, Alex Imas, Andrew Koh i Shane Legg, 29 października 2026):
+- Dodano rekord źródła `content/sources/S61.json` z bezpośrednim linkiem do oryginału (`https://institute.deepmind.com/essays/the-economics-of-intelligence/`, `access: verified-public`; treść potwierdzona 2026-11-18).
+- Dodano 5 perspektyw (`content/evidence/`), każda z dosłownym cytatem (`public_locator.kind: quote`) sprawdzonym z tekstem strony kanonicznej:
+  - `deepmind-wages-move-before-org-charts` (AI-05)
+  - `deepmind-coordinators-as-mosaic-multipliers` (AI-08)
+  - `deepmind-supercompetent-human-advantage` (AI-13)
+  - `deepmind-organization-level-benchmarks` (AI-25)
+  - `deepmind-coordination-vs-competence-scaling` (AI-28)
+- Dodano po jednym zdaniu kwalifikującym do diagnoz AI-05, AI-08, AI-13, AI-25 i AI-28 oraz pytanie diagnostyczne dot. ewaluacji na poziomie zespołu agentów w AI-25.
+- Ograniczenia źródła: model teoretyczny z `arXiv:2611.05417` ze stylizowanym eksperymentem quizowym (N=100) oraz zastrzeżeniem DMI (poglądy autorów, nie oficjalne stanowisko Google).
+- Łącznie: 52 rodziny źródeł i 106 przypisanych perspektyw dowodowych. Wszystkie nowe i zmodyfikowane rekordy mają status `pending`.
+
 ## v1.8 — 31 października 2026
 
 Wzbogacono 5 stacji o esej Bena Horowitza i Michaela McGuinessa (Andreessen Horowitz, *Databricks & the Future of the Firm*, 27 października 2026):

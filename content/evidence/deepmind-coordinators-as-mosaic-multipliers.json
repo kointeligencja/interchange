@@ -1,0 +1,16 @@
+{
+  "id": "deepmind-coordinators-as-mosaic-multipliers",
+  "source_id": "S61",
+  "type": "organizational-theory",
+  "title": "Coordinators look weak on solo benchmarks yet multiply output across complementary specialists",
+  "text": "Organizations create 'mosaic intelligence' by combining specialists whose capabilities are jagged in different directions (yielding a 32% performance advantage for complementary pairings over random pairs in the authors’ 100-person, six-domain quiz). Judged by solo task benchmarks, a pure coordinator appears average at every execution skill, yet inside a team skilled coordination reduces handoff friction, raises specialist productivity, and expands the firm’s optimal scale.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Empirical quiz evidence comes from a stylized 100-participant six-domain task rather than an enterprise workplace study; the scaling curve model abstracts away from internal organizational politics and bureaucratic overhead.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "Inside a team, however, a skilled coordinator eases handoff friction across colleagues, enables the team to grow larger without losing focus, and makes every coder and writer noticeably more productive."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

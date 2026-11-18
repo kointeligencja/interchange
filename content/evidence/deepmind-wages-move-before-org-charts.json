@@ -1,0 +1,16 @@
+{
+  "id": "deepmind-wages-move-before-org-charts",
+  "source_id": "S61",
+  "type": "economic-theory",
+  "title": "Wage and role compression arrive before visible organizational restructuring or GDP shifts",
+  "text": "Under minimal AGI—where reproducible models match average human capabilities at the cost of compute—balanced teams of complementary human specialists still outcompete AI-only firms, leaving firm boundaries and aggregate headcounts largely intact. Yet wages shift immediately: pay for AI-matched generalist tasks compresses toward compute cost while scarce specialists and human coordinators command higher returns. Macro employment stability therefore provides weak evidence that AI is having little economic impact.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Theoretical equilibrium result from Organizing Intelligence (arXiv:2611.05417) illustrating comparative statics across capability regimes; actual wage pass-through depends on labor-market frictions, institutional contracts, and deployment speed.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "because wage effects arrive before organizational restructuring, macro statistics of employment rates provide poor evidence that AI is not having an effect on the economy."
+  },
+  "review": {
+    "status": "pending"
+  }
+}
