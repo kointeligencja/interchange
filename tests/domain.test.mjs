@@ -24,3 +24,20 @@ test('map has 36 semantic anchors with text equivalents and no embedded article 
 test('search matches exact station IDs and plain numbers',()=>{for(const q of ['20','020','AI-20','station 20'])assert.equal(rankSearch(renderer.clientData.search,q)[0]?.id,'AI-20');});
 test('local search returns relevant content without inventing results',()=>{assert.equal(rankSearch(renderer.clientData.search,'permissions')[0].id,'AI-20');assert.equal(rankSearch(renderer.clientData.search,'zzzzxqdoesnotexist').length,0);assert.equal(rankSearch(renderer.clientData.search,'').length,0);assert.ok(rankSearch(renderer.clientData.search,'data').length<=12);});
 test('rendering under a subpath preserves route and asset URLs',()=>{const rr=createRenderer(site,{base:'/field-guide/'});const html=rr.document(rr.pages[0]);assert.ok(html.includes('href="/field-guide/index/"'));assert.ok(html.includes('src="/field-guide/assets/app.js"'));assert.ok(html.includes('href="/field-guide/stations/20-enforced-agent-permissions/"'));});
+
+test('published open mode removes pending/preview banners and enables Google indexing with canonical URLs',()=>{
+  const pub=createRenderer(site,{siteURL:'https://interchange.kointeligencja.com',published:true});
+  for(const path of ['/','/about/','/connections/',stationPath(site.stations[4])]){
+    const page=pub.pages.find(p=>p.path===path);
+    const html=pub.document(page);
+    assert.ok(html.includes('<meta name="robots" content="index,follow"/>'),path);
+    assert.ok(html.includes('<link rel="canonical" href="https://interchange.kointeligencja.com'),path);
+    assert.ok(!html.includes('Research preview'),path);
+    assert.ok(!html.includes('checks are pending'),path);
+    assert.ok(!html.includes('Research draft'),path);
+    assert.ok(!html.includes('Review pending'),path);
+    assert.ok(!html.includes('A working edition'),path);
+  }
+  const notFoundHtml=pub.document(pub.pages.find(p=>p.path==='/404/'));
+  assert.ok(notFoundHtml.includes('<meta name="robots" content="noindex,nofollow"/>'));
+});

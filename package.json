@@ -3,7 +3,7 @@
   "version": "1.9.0",
   "private": true,
   "type": "module",
-  "description": "36 AI transformation stations. Neutral shell, chromatic network. Static, dependency-free review build.",
+  "description": "36 AI transformation stations. Neutral shell, chromatic network. Static, dependency-free field guide.",
   "engines": {
     "node": ">=22.12.0"
   },
@@ -17,7 +17,8 @@
     "check:links": "node scripts/check-links.mjs",
     "build:astro": "node scripts/astro-build.mjs",
     "search:pagefind": "pagefind --site dist --root-selector '[data-pagefind-body]'",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:preview": "node scripts/build.mjs --preview"
   },
   "devDependencies": {
     "astro": "^7.0.0",
