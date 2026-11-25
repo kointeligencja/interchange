@@ -1,0 +1,16 @@
+{
+  "id": "anthropic-resistance-surveillance-and-incentives",
+  "source_id": "S62",
+  "type": "empirical-evidence",
+  "title": "Staff resistance reflects rational concerns over displacement, surveillance, burden-shifting and unaligned incentives rather than lack of training",
+  "text": "Across 58 companies, staff resistance (43 mentions) was the second most frequently cited bottleneck after excessive output to check (49). Even though domestic layoffs driven by automation were rare (2 firms), two-thirds of companies reduced hiring and 9 cut external—especially offshore—contractors, making employee career anxiety grounded in visible shifts. Experts withheld effective workflows as personal “secret sauce” or worried they were “building my own coffin”; reviewers asked to double throughput for gift cards stalled at prior pace; law-firm conflict staff shelved an agent that automated routine checks while dumping harder edge cases onto them; and hourly AI lag tracking or automated transcript scoring provoked a “panopticon effect.”",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Qualitative multi-firm interview evidence (66 interviews across 58 US Anthropic customers); reflects employee and manager perceptions across a non-random sample skewed toward larger, software and finance firms.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "If I’m open to this, I’m essentially building my own coffin."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

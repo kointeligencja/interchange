@@ -1,0 +1,13 @@
+{
+  "id": "S62",
+  "title": "Working with AI",
+  "author_or_organization": "Nathan Wilmers, Maxim Massenkoff, and Peter McCrory (The Anthropic Institute)",
+  "source_type": "multi-firm qualitative interview study",
+  "date_as_supplied": "2026-11-23",
+  "original_url": "https://www.anthropic.com/research/working-with-ai",
+  "limitations": "Qualitative, non-representative opt-in sample of 66 face-to-face video interviews (25–40 minutes) across 58 US Anthropic enterprise customers. Compared with Census BTOS AI adopters, participating firms are larger on average (roughly matching employment-weighted US firm sizes) and skew toward software and finance while underrepresenting retail and transportation. Value ratings, organisational-change scores (r = +0.39 across ~300 applications), software counts (140), and bottleneck frequencies are derived from interviewee self-reports classified by an automated LLM coder rather than audited financials or controlled experiments.",
+  "review": {
+    "status": "pending"
+  },
+  "access": "verified-public"
+}

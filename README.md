@@ -1,8 +1,22 @@
-# INTERCHANGE — działająca implementacja v1.9
+# INTERCHANGE — działająca implementacja v1.10
 
 **Status: wersja do przeglądu zespołowego, nie zatwierdzona publikacja.**
 
 36 tematów o transformacji AI, sześć linii, własna mapa SVG i spokojne strony do czytania. To rzeczywisty interfejs HTML/CSS/JavaScript z pełną treścią, a nie obraz makiety. Projekt realizuje kierunek „Everything is neutral except the network”.
+
+## Zmiany v1.10 — wzbogacenie 6 stacji o badanie The Anthropic Institute (*Working with AI*)
+
+Wydanie v1.10 dodaje rodzinę źródeł **S62** (Nathan Wilmers, Maxim Massenkoff i Peter McCrory, The Anthropic Institute — *Working with AI*, 23 listopada 2026, z bezpośrednim linkiem do oryginału na `anthropic.com/research/working-with-ai`) oraz 6 perspektyw dowodowych z dosłownymi cytatami sprawdzonymi ze stroną kanoniczną (66 wywiadów w 58 firmach w USA):
+- **AI-01**: wartość biznesowa AI koreluje ze skalą zmiany organizacyjnej ($r = +0{,}39$ w ok. 300 wdrożeniach) i pochodzi głównie z ekspansji biznesu (55%), a nie redukcji etatów (2% zwolnień, 19% cięć kosztów, 19% brak wartości) (`anthropic-org-change-drives-value`).
+- **AI-07**: oddolni użytkownicy nie mają mandatu do przebudowy procesów międzywydziałowych; firmy o najwyższej wartości łączą decyzje zarządcze z poszerzaniem ról do pełnej odpowiedzialności end-to-end (`anthropic-broadening-roles-and-authority`).
+- **AI-10**: kwalifikacja trendu citizen-builderów z `S59` — aplikacje budowane przez osoby nietechniczne grzęzną na ostatniej mili (59 wzmianek o infrastrukturze, utrzymaniu i bezpieczeństwie) oraz w pułapce utrzymania zamienników taniego SaaS, dopóki IT nie zbuduje wspólnych, bezpiecznych szyn hostingowych i dostępu do danych (`anthropic-vibe-coded-last-mile-and-infra`).
+- **AI-12**: kwalifikacja kontraktu adaptacyjnego z `S59` w zwykłych przedsiębiorstwach — opór pracowników (43 wzmianki) wynika z racjonalnych obaw przed utratą roli (2/3 firm ograniczyło rekrutację, 9 obcięło zewnętrznych/offshore kontraktorów), przerzucaniem trudniejszych wyjątków, ukrywaniem „secret sauce” i nadzorem typu panoptikon (`anthropic-resistance-surveillance-and-incentives`).
+- **AI-35**: sztywne automatyzacje i chatboty starzeją się w „zombie apps” w ciągu ok. 3 miesięcy wraz z postępem modeli, podczas gdy trwałe systemy wymagają ciągłego utrzymania przez ekspertów domenowych po wdrożeniu (`anthropic-zombie-apps-and-moving-bottlenecks`).
+- **AI-36**: te same narzędzia w tej samej branży (trzy średnie kancelarie prawne) dają skrajnie różne wyniki, a nierównomierne przyspieszenie rozbija sąsiednie zespoły i procedury SOP („Claude grenades”, 20 wzmianek o nienadążających zespołach) (`anthropic-uneven-velocity-and-local-context`).
+
+Zastrzeżenie: jakościowa, niereprezentatywna próba 66 wywiadów w 58 firmach (klienci Anthropic w USA, większe firmy z nadreprezentacją software i finansów względem Census BTOS); oceny wartości, zmian organizacyjnych i wąskich gardeł pochodzą z deklaracji rozmówców zakodowanych automatycznie przez LLM.
+
+Łącznie: 53 rodziny źródeł i 112 przypisanych perspektyw (89 pozycji w uniwersalnym indeksie semantycznym Jev).
 
 ## Zmiany v1.9 — wzbogacenie 5 stacji o esej DeepMind Institute (*The Economics of Intelligence*)
 

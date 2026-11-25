@@ -4,7 +4,7 @@
   "slug": "prototype-to-production",
   "title": "Letting prototypes become production systems without a governed path",
   "summary": "Give non-technical builders a supported route from useful experiment to owned, tested service.",
-  "diagnosis": "The danger is not that a subject-matter expert creates a useful prototype. As coding agents diffuse into sales, finance, legal and recruiting, non-technical specialists can build custom dashboards, tool integrations and review workflows in hours rather than quarters. The risk is that a prototype gains users, permissions and business importance without a deliberate promotion decision. A production service needs someone who can explain its dependencies, evaluate changes, handle incidents and support users—even when AI generated much of the implementation.",
+  "diagnosis": "The danger is not that a subject-matter expert creates a useful prototype. As coding agents diffuse into sales, finance, legal and recruiting, non-technical specialists can build custom dashboards, tool integrations and review workflows in hours rather than quarters. The risk is that a prototype gains users, permissions and business importance without a deliberate promotion decision. Multi-firm field evidence shows that citizen-built internal apps frequently stall at the last mile—creating security exposure and shifting maintenance burdens onto non-engineers—unless IT and engineering provide shared hosting rails and governed access to company data. A production service needs someone who can explain its dependencies, evaluate changes, handle incidents and support users—even when AI generated much of the implementation.",
   "diagnostic_questions": [
     "Where is the boundary between a private experiment, a shared pilot and a production dependency?",
     "Who can approve promotion, and what evidence must they inspect?",
@@ -36,12 +36,14 @@
     "daily-citizen-lifecycle",
     "daily-release-ownership",
     "ondrej-context-versioning",
-    "anthropic-nontechnical-builders"
+    "anthropic-nontechnical-builders",
+    "anthropic-vibe-coded-last-mile-and-infra"
   ],
   "source_ids": [
     "S05",
     "S13",
-    "S59"
+    "S59",
+    "S62"
   ],
   "report_reference": null,
   "review": {

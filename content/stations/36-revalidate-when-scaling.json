@@ -4,7 +4,7 @@
   "slug": "revalidate-when-scaling",
   "title": "Assuming one success transfers unchanged across the company or portfolio",
   "summary": "Reuse proven assets while revalidating local workflows, data, economics, authority and adoption.",
-  "diagnosis": "A successful implementation provides a useful starting point, not a universal template. Another company may have different definitions, exceptions, system access, review capacity or customer expectations. Separate the reusable technical and learning assets from assumptions that were local to the first setting. Scale through evidence about the new context rather than through executive enthusiasm alone.",
+  "diagnosis": "A successful implementation provides a useful starting point, not a universal template. Another company may have different definitions, exceptions, system access, review capacity or customer expectations. Field comparisons show the same AI tools producing opposite outcomes across similar firms—and uneven local acceleration breaking downstream teams and standard operating procedures when adjacent functions cannot keep pace. Separate the reusable technical and learning assets from assumptions that were local to the first setting. Scale through evidence about the new context rather than through executive enthusiasm alone.",
   "diagnostic_questions": [
     "Which parts of the original success depended on local data, people, incentives or system architecture?",
     "What is genuinely reusable, and what must be re-specified or tested in the new setting?",
@@ -36,14 +36,16 @@
     "process-local-maturity",
     "octopus-context-culture",
     "foss-governance",
-    "cybernetic-bounded-evidence"
+    "cybernetic-bounded-evidence",
+    "anthropic-uneven-velocity-and-local-context"
   ],
   "source_ids": [
     "S01",
     "S04",
     "S06",
     "S12",
-    "S24"
+    "S24",
+    "S62"
   ],
   "report_reference": {
     "source_id": "S01",

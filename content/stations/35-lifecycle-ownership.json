@@ -4,11 +4,12 @@
   "slug": "lifecycle-ownership",
   "title": "Treating launch as the end of ownership",
   "summary": "Fund and assign the full service lifecycle: operation, change, support, knowledge maintenance and retirement.",
-  "diagnosis": "A project may have a delivery team but no enduring owner after launch. Meanwhile models, data, tools, users and business rules change. Treat the deployed workflow as an operating service with accountable stewardship. Ownership should survive personnel changes and include the authority to restrict or retire a system whose value or safety no longer justifies its cost.",
+  "diagnosis": "A project may have a delivery team but no enduring owner after launch. Meanwhile models, data, tools, users and business rules change. Rigid point automations and custom chatbots can decay into unused “zombie apps” within months as underlying models advance, whereas durable workflows require domain experts to sample transcripts, repair broken integrations and revise prompts continuously after launch. Treat the deployed workflow as an operating service with accountable stewardship. Ownership should survive personnel changes and include the authority to restrict or retire a system whose value or safety no longer justifies its cost.",
   "diagnostic_questions": [
     "Who owns the service after the project closes, and what resources are committed to that work?",
     "Who approves changes to the model, context, rules, access and evaluations?",
-    "How will dependencies, credentials, retained data and user expectations be handled when the service is retired?"
+    "How will dependencies, credentials, retained data and user expectations be handled when the service is retired?",
+    "What review cadence will detect when model improvements or changing workflows have turned a deployed automation into an obsolete “zombie app”?"
   ],
   "proposed_actions": [
     "Register every live workflow with operational and business owners, deputies, dependencies, permissions, costs and support routes.",
@@ -35,12 +36,14 @@
   "evidence_ids": [
     "every-company-agents",
     "pearson-learning-assets",
-    "twelve-rubrics-traces"
+    "twelve-rubrics-traces",
+    "anthropic-zombie-apps-and-moving-bottlenecks"
   ],
   "source_ids": [
     "S03",
     "S31",
-    "S36"
+    "S36",
+    "S62"
   ],
   "report_reference": null,
   "review": {

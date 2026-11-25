@@ -1,0 +1,16 @@
+{
+  "id": "anthropic-vibe-coded-last-mile-and-infra",
+  "source_id": "S62",
+  "type": "empirical-evidence",
+  "title": "Non-technical AI-built apps hit last-mile maintenance and security walls unless IT builds shared hosting and data infrastructure",
+  "text": "Across 140 pieces of AI-generated software discussed in 58 companies (80% automating manual work, 20% replacing vendor software), non-technical employees concentrated on internal apps and dashboards while engineers retained product features and infrastructure. Supporting this software generated 59 bottleneck mentions—weak infrastructure and integrations (21), nobody to build or maintain tools (20) and security risks and reviews (18). Prototypes such as an 80-hour 401(k) audit tool stalled for months waiting on vendor productionisation, and operations leaders noted that vibe-coding replacements for inexpensive SaaS tools often increased ongoing maintenance burdens. Organisations that scaled citizen building pivoted IT and engineering into providing shared secure hosting rails and democratised company data warehouses.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Coded counts of 140 software examples and bottleneck mentions across 66 interviews at 58 US Anthropic enterprise customers; reflects early enterprise experience with coding agents as of late 2026.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "So, we can save that money by vibe coding. But the maintenance cost obviously goes up as well, and we have to get our talent manager to start maintaining a vibe-coded dashboard."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

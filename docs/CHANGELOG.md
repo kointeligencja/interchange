@@ -1,5 +1,20 @@
 # Changelog implementacji
 
+## v1.10 — 25 listopada 2026
+
+Wzbogacono 6 stacji o wielofirmowe badanie jakościowe The Anthropic Institute (*Working with AI*, Nathan Wilmers, Maxim Massenkoff i Peter McCrory, 23 listopada 2026):
+- Dodano rekord źródła `content/sources/S62.json` z bezpośrednim linkiem do oryginału (`https://www.anthropic.com/research/working-with-ai`, `access: verified-public`; treść potwierdzona 2026-11-25).
+- Dodano 6 perspektyw (`content/evidence/`), każda z dosłownym cytatem (`public_locator.kind: quote`) sprawdzonym z tekstem strony kanonicznej:
+  - `anthropic-org-change-drives-value` (AI-01)
+  - `anthropic-broadening-roles-and-authority` (AI-07)
+  - `anthropic-vibe-coded-last-mile-and-infra` (AI-10)
+  - `anthropic-resistance-surveillance-and-incentives` (AI-12)
+  - `anthropic-zombie-apps-and-moving-bottlenecks` (AI-35)
+  - `anthropic-uneven-velocity-and-local-context` (AI-36)
+- Dodano po jednym zdaniu kwalifikującym do diagnoz AI-01, AI-07, AI-10, AI-12, AI-35 i AI-36 oraz pytanie diagnostyczne dot. wyłapywania przestarzałych „zombie apps” w AI-35.
+- Ograniczenia źródła: niereprezentatywna próba 66 wywiadów w 58 firmach korzystających z Claude w USA (większych niż przeciętni użytkownicy AI w Census BTOS, z nadreprezentacją software i finansów); oceny wartości i klasyfikacje wąskich gardeł pochodzą z deklaracji rozmówców kodowanych automatycznie przez LLM.
+- Łącznie: 53 rodziny źródeł i 112 przypisanych perspektyw dowodowych. Wszystkie nowe i zmodyfikowane rekordy mają status `pending`.
+
 ## v1.9 — 18 listopada 2026
 
 Wzbogacono 5 stacji o esej DeepMind Institute (*The Economics of Intelligence: How and when does AGI lead to economic transformation?*, Alex Imas, Andrew Koh i Shane Legg, 29 października 2026):

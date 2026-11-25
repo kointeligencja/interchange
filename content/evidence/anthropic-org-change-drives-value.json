@@ -1,0 +1,16 @@
+{
+  "id": "anthropic-org-change-drives-value",
+  "source_id": "S62",
+  "type": "empirical-evidence",
+  "title": "Across 58 firms, higher AI value correlates with organisational change (r = +0.39) and comes primarily from business expansion rather than headcount cuts",
+  "text": "Across nearly 300 coded AI applications discussed in 66 interviews at 58 US companies, self-reported business value correlated positively with the extent of organisational change (r = +0.39). Light-touch individual habits—such as slide decks, ad hoc data analysis, competitive analysis and early chatbots—clustered near the bottom of reported value, while high-value deployments altered policies, added review steps or reshaped roles. Interviewees attributed 55% of value to business expansion (higher quality 14%, accelerated existing work 11%, new internal tools 10%, more existing work 8%, new products 8%, cleared backlog 4%) versus 19% to cost cuts (reduced hiring 11%, cut contractors 6%, layoffs 2%), 7% kept by employees and 19% delivering no value (piloting/unclear 8%, bottlenecked 6%, lost to review 5%).",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Qualitative self-reported value ratings and automated LLM coding of 66 interviews across 58 opt-in US Anthropic enterprise customers rather than audited financial returns or randomised experiments.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "The highest-value applications involve wide-reaching organizational change."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

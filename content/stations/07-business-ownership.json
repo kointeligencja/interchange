@@ -4,7 +4,7 @@
   "slug": "business-ownership",
   "title": "Treating AI transformation as an IT project or one person’s responsibility",
   "summary": "Join executive sponsorship, process ownership and technical delivery without pretending one role can do all three.",
-  "diagnosis": "A technical team can build a service without having authority to resolve business priorities, change incentives or assign responsibility across departments. An executive sponsor can create urgency without owning day-to-day decisions. State which decisions sit with the sponsor, the process owner and the operational owner; give each the resources needed to carry that responsibility.",
+  "diagnosis": "A technical team can build a service without having authority to resolve business priorities, change incentives or assign responsibility across departments. An executive sponsor can create urgency without owning day-to-day decisions. Bottom-up adopters rarely have authority to redesign cross-functional workflows; higher-value deployments pair executive decision rights with broader end-to-end role ownership that reduces handoff context loss and cross-team vetoes. State which decisions sit with the sponsor, the process owner and the operational owner; give each the resources needed to carry that responsibility.",
   "diagnostic_questions": [
     "Who can make cross-functional tradeoffs about the outcome, risk and workflow design?",
     "Does the named owner have authority and time, or only accountability after a failure?",
@@ -37,7 +37,8 @@
     "octopus-guardrails",
     "foss-governance",
     "levie-operating-model",
-    "pucek-accountability-boundary"
+    "pucek-accountability-boundary",
+    "anthropic-broadening-roles-and-authority"
   ],
   "source_ids": [
     "S01",
@@ -45,7 +46,8 @@
     "S04",
     "S06",
     "S08",
-    "S46"
+    "S46",
+    "S62"
   ],
   "report_reference": {
     "source_id": "S01",

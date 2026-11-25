@@ -1,0 +1,16 @@
+{
+  "id": "anthropic-uneven-velocity-and-local-context",
+  "source_id": "S62",
+  "type": "empirical-evidence",
+  "title": "The same AI tools produce opposite outcomes across similar firms and break downstream teams when local acceleration outpaces surrounding workflows",
+  "text": "Applying identical AI tools inside the same industry yielded sharply different results across three midsize law firms: one automated mailroom routing with displacement risk, a second stalled on errors and seven-page AI memos lobbed at IT, and a third redeployed staff into infrastructure and partner-led draft review. Even within one company, uneven velocity created severe friction (“Other teams cannot keep up” drew 20 bottleneck mentions): power users lobbed “Claude grenades” at skeptical peers, commercial real estate staff bypassed marketing SOPs to ship client documents directly, and an equipment manufacturer disabled an AI feature that translated its product into 10 languages because phone support could not answer calls in those languages.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Comparative qualitative cases and coded bottleneck frequencies across 66 interviews at 58 US Anthropic enterprise customers; illustrates mechanism and variance rather than statistical prevalence across all industries.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "That’s good because, hey, we got another client. That’s bad because our standard operating procedures are starting to fall apart."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

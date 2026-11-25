@@ -1,0 +1,16 @@
+{
+  "id": "anthropic-broadening-roles-and-authority",
+  "source_id": "S62",
+  "type": "empirical-evidence",
+  "title": "Bottom-up adopters lack authority to redesign cross-functional work, so high-value firms broaden roles into end-to-end ownership",
+  "text": "Individual contributors using AI from the bottom up can improve tasks within their own corner of the business, but cannot redesign workflows that span multiple functions—such as production planning across procurement, logistics, manufacturing and sales where decision accountability is undefined. Companies achieving the highest value combine executive authority with role broadening: merging adjacent specialisms into single end-to-end owners (such as combining product manager, designer, engineer and QA into one builder, or lead sourcing, account executive and customer success into one customer-lifecycle owner) so faster execution is not blocked by handoff context loss and cross-team vetoes.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Derived from 66 interviews across 58 US Anthropic customers; role-broadening patterns are most heavily documented in software, services and fast-moving mid-size firms and may face tighter separation-of-duties constraints in regulated environments.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "The individual doesn’t have the authority to change the work. They can only apply it in their own area."
+  },
+  "review": {
+    "status": "pending"
+  }
+}
