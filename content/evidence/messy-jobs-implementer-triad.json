@@ -1,0 +1,16 @@
+{
+  "id": "messy-jobs-implementer-triad",
+  "source_id": "S63",
+  "type": "practitioner-pattern",
+  "title": "Effective AI rollout depends on rare implementers combining procedural, technical and political knowledge—and peer diffusion over training modules",
+  "text": "Card 9 places the real AI implementer at the rare intersection of three kinds of knowledge rarely held in one head: procedural (how the work really runs), technological (what the tech really does) and political (who will block it). Against a Microsoft and LinkedIn Work Trend Index 2024 baseline where 75 of 100 knowledge workers use AI at work (59 with their own tools) while 60% of leaders report no implementation plan, Messy Jobs highlights three practices shared by the strongest implementers: speed (deploy before resistance forms), scarcity and status (make access scarce so it becomes a status symbol) and autonomy (let peers teach peers instead of formal training modules).",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Conceptual Venn model and practitioner synthesis from Card 9 (citing Messy Jobs pp. 100–115 and Microsoft/LinkedIn Work Trend Index 2024, N=31,000); the three implementation tactics (speed, artificial scarcity and peer autonomy) carry governance risks if applied without data-security or risk controls.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "How the companies best at implementing AI did it (p. 114-115): 1 Speed — deploy before resistance forms; 2 Scarcity and status — make access scarce, so it becomes a status symbol; 3 Autonomy — let peers teach peers instead of training modules"
+  },
+  "review": {
+    "status": "pending"
+  }
+}

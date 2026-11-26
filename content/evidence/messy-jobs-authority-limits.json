@@ -1,0 +1,16 @@
+{
+  "id": "messy-jobs-authority-limits",
+  "source_id": "S63",
+  "type": "organizational-theory",
+  "title": "Four structural reasons AI cannot hold authority where humans are involved or impacted",
+  "text": "Computation is accelerating exponentially while agreement between humans is not: xAI built the Colossus data centre in 122 days, whereas London started only ~4,331 annualised private homes in 2025 against ~88,000 needed each year because each project requires planning agreement, resolving objections and dropping lawsuits. Garicano, Li and Wu identify four structural reasons AI cannot hold authority: (1) tacit knowledge (people confide in a leader after years of trust), (2) liability (who answers in court when a decision is wrong), (3) procedural fairness (affected people must accept the process, not just the answer) and (4) human override (who can overrule AI, and why AI with nothing at stake long-term would obey).",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Organizational-economics argument from Card 7 (citing Messy Jobs pp. 82–84 and 92–96, NVIDIA Oct 2024 and Molior 2025); illustrates institutional and legal barriers to automated authority rather than measuring enterprise governance failures directly.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "AI can draft a planning review. It cannot convince an environmental group to drop its lawsuit. Four reasons AI cannot hold authority (p. 92-96): 1 Tacit knowledge; 2 Liability; 3 Procedural fairness; 4 Human override"
+  },
+  "review": {
+    "status": "pending"
+  }
+}

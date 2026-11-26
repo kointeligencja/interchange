@@ -4,7 +4,7 @@
   "slug": "licences-are-not-strategy",
   "title": "Buying AI licences and calling it a strategy",
   "summary": "Define the business change before treating tool access as progress.",
-  "diagnosis": "A rollout plan is substituting for a business hypothesis when it names licences, training and usage targets but cannot identify the work that should change. The missing decision is not necessarily which technology to buy. It may be who receives the benefit, what constraint matters and who can change the process. Tool access collapses the cost of translating intent into drafts and code, but applying AI to an unexamined legacy workflow merely accelerates an obsolete process. Multi-firm interview evidence confirms that light-touch personal habits deliver limited value unless paired with wider organisational change, and that most realised value comes from expanding output and services rather than cutting headcount. Separate exploratory access from a committed business improvement programme.",
+  "diagnosis": "A rollout plan is substituting for a business hypothesis when it names licences, training and usage targets but cannot identify the work that should change. The missing decision is not necessarily which technology to buy. It may be who receives the benefit, what constraint matters and who can change the process. Tool access collapses the cost of translating intent into drafts and code, but applying AI to an unexamined legacy workflow merely accelerates an obsolete process. Multi-firm interview evidence confirms that light-touch personal habits deliver limited value unless paired with wider organisational change, and that most realised value comes from expanding output and services rather than cutting headcount. Historical analogies from factory electrification reinforce why rapid personal uptake stalls inside companies: isolated small pilots fail when architectural changes must move together through operational fog and internal resistance. Separate exploratory access from a committed business improvement programme.",
   "diagnostic_questions": [
     "Which business outcome is this initiative meant to change, for whom, and against what baseline?",
     "Which workflow, decision or service will work differently—not merely faster within the same step?",
@@ -39,7 +39,8 @@
     "bek-copilot-autopilot-budget",
     "gore-translation-layer",
     "mckinsey-accountability-by-design",
-    "anthropic-org-change-drives-value"
+    "anthropic-org-change-drives-value",
+    "messy-jobs-architectural-lag-and-fog"
   ],
   "source_ids": [
     "S01",
@@ -49,7 +50,8 @@
     "S47",
     "S55",
     "S58",
-    "S62"
+    "S62",
+    "S63"
   ],
   "report_reference": {
     "source_id": "S01",

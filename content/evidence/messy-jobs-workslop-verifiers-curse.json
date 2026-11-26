@@ -1,0 +1,16 @@
+{
+  "id": "messy-jobs-workslop-verifiers-curse",
+  "source_id": "S63",
+  "type": "diagnosis",
+  "title": "Workslop ('the verifier's curse') flips effort from drafting to line-by-line checking, requiring smaller trust units and rewarded review",
+  "text": "Card 12 formalises 'workslop' and the verifier's curse: before AI, a writer drafted all day and a checker skimmed in twenty minutes; with AI, a writer prompts at 6 pm and goes home while the checker must read every line the next morning because generated drafts are longer, smoother and more assertive (illustrated by August 2023 AI-written mushroom foraging guides on Amazon where confusing lookalikes was 'life or death'). Rather than relying on ad hoc vigilance, Messy Jobs proposes three workflow and team redesigns to curb workslop: smaller teams (shrink the unit of trust so it is clear who did what), transparency (make the process visible, not just the results) and rewarding checking as real work.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Schematic effort comparison and organisational prescription from Card 12 (citing Messy Jobs pp. 146–158 and 404 Media, 29 Aug 2023); the draft-versus-check bar chart is illustrative rather than a measured time-motion benchmark.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "Three ways to redesign workflows and teams to reduce workslop (p. 156): 1 Smaller teams — shrink the unit of trust: small enough to know who did what; 2 Transparency — make the process visible, not just the results; 3 Reward checking — checking becomes real work, and should be rewarded as such"
+  },
+  "review": {
+    "status": "pending"
+  }
+}

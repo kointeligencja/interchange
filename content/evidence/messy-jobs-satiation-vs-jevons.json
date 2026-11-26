@@ -1,0 +1,16 @@
+{
+  "id": "messy-jobs-satiation-vs-jevons",
+  "source_id": "S63",
+  "type": "counterpoint",
+  "title": "Cheaper cognition can hit demand satiation and Baumol bounds rather than an automatic Jevons boom",
+  "text": "Qualifying blanket Jevons-paradox assumptions, Cards 2 and 15 contrast identical leaps in productivity that produced opposite demand outcomes: US farm workers dropped from 41% of the workforce in 1900 to 1.2% in 2022 because food demand hit satiation, whereas British coal output rose from 72 million to 292 million tonnes a year between 1853–62 and 1913 via the Jevons effect. Thomas Wolf notes recent hints from Ramp that total spending on AI inference actually dropped, suggesting some cognitive tasks face satiation limits. In an illustrative Baumol two-sector model (Card 15), even 20% annual AI productivity gains shrink AI's share of total spending (from 50% to 3% over 40 years) while slow human-service sectors expand to 97%, pulling weighted growth down toward ~1.6% unless problem selection, implementation and slow-sector bottlenecks move too.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Historical comparison and illustrative two-sector Baumol model (elasticity 0.5) from Cards 2 and 15 (citing Messy Jobs pp. 23–24, ch. 13 and p. 194, USDA ERS, UK DESNZ); the Ramp inference-spending observation is an informal commentary note by Thomas Wolf without a linked primary dataset.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "The big question: will some parts of thinking hit a satiation market while others hit a Jevons market? Recent hints from Ramp suggest some limits to the Jevons paradox here, as total spending on inference actually dropped recently."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

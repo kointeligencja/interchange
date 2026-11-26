@@ -1,5 +1,21 @@
 # Changelog implementacji
 
+## v1.11 — 26 listopada 2026
+
+Wzbogacono 7 stacji o 15-kartowy primer wizualny Thomasa Wolfa (`@Thom_Wolf`) podsumowujący książkę *Messy Jobs: The Work That AI Cannot Reach* (Luis Garicano, Jin Li i Yanhui Wu, Upriver Press, 2026):
+- Dodano rekord źródła `content/sources/S63.json` z bezpośrednim linkiem do zweryfikowanego wątku na X (`https://x.com/Thom_Wolf/status/2125956671109247325`, `access: verified-public`; strona książki `https://messyjobs.ai/` odnotowana w metadanych i ograniczeniach).
+- Dodano 7 perspektyw (`content/evidence/`), każda z dosłownym cytatem (`public_locator.kind: quote`) z odpowiedniej karty:
+  - `messy-jobs-architectural-lag-and-fog` (AI-01)
+  - `messy-jobs-strong-weak-bundles` (AI-02)
+  - `messy-jobs-satiation-vs-jevons` (AI-06)
+  - `messy-jobs-authority-limits` (AI-07)
+  - `messy-jobs-implementer-triad` (AI-09)
+  - `messy-jobs-mediocrity-trap-and-signals` (AI-13)
+  - `messy-jobs-workslop-verifiers-curse` (AI-28)
+- Dodano po jednym zdaniu kwalifikującym do diagnoz AI-01, AI-02, AI-06, AI-07, AI-09, AI-13 i AI-28 oraz pytanie diagnostyczne o siłę wiązań w roli w AI-02.
+- Ograniczenia źródła: kuratorski primer wizualny i notatki czytelnicze (15 kart) oparte na książce z 2026 r., a nie bezpośredni audyt pełnego tekstu książki; część wykresów ma charakter schematyczny, a przywoływane statystyki wtórne (m.in. Dhanoa et al. 2013, Microsoft/LinkedIn 2024, St. Louis Fed 2025, SignalFire 2025, nieźródłowana wzmianka o Ramp, METR 2025 z adnotacją o dezaktualizacji w lutym 2026) wymagają odrębnej weryfikacji źródeł pierwotnych.
+- Łącznie: 54 rodziny źródeł i 119 przypisanych perspektyw dowodowych. Wszystkie nowe i zmodyfikowane rekordy mają status `pending`.
+
 ## v1.10 — 25 listopada 2026
 
 Wzbogacono 6 stacji o wielofirmowe badanie jakościowe The Anthropic Institute (*Working with AI*, Nathan Wilmers, Maxim Massenkoff i Peter McCrory, 23 listopada 2026):

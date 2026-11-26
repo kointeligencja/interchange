@@ -4,7 +4,7 @@
   "slug": "economics-after-feasibility",
   "title": "Optimising model cost before proving the task works—or ignoring economics once it does",
   "summary": "Establish capability inside a budget, then optimise the complete cost of successful delivery.",
-  "diagnosis": "A cheap model that fails does not prove a use case is infeasible, and an expensive configuration that works does not prove it is economical. Separate the feasibility question from the operating-cost question without postponing all financial discipline. Test a sufficiently capable baseline, identify why it succeeds or fails, and then compare cheaper or simpler configurations against the same quality boundary.",
+  "diagnosis": "A cheap model that fails does not prove a use case is infeasible, and an expensive configuration that works does not prove it is economical. Separate the feasibility question from the operating-cost question without postponing all financial discipline. Test a sufficiently capable baseline, identify why it succeeds or fails, and then compare cheaper or simpler configurations against the same quality boundary. Do not assume cheaper cognition automatically triggers a Jevons volume boom: some tasks hit demand satiation while slow human-service bottlenecks absorb an ever-larger share of total cost.",
   "diagnostic_questions": [
     "Is the initial configuration capable enough to test the idea, or is cost minimisation masking feasibility?",
     "Which costs sit outside model tokens: retrieval, integrations, retries, human review and support?",
@@ -37,14 +37,16 @@
     "acharya-model-fit",
     "pearson-new-capability",
     "emergence-mirage-pmf",
-    "buhler-jevons-paradox-thinking"
+    "buhler-jevons-paradox-thinking",
+    "messy-jobs-satiation-vs-jevons"
   ],
   "source_ids": [
     "S05",
     "S19",
     "S31",
     "S48",
-    "S49"
+    "S49",
+    "S63"
   ],
   "report_reference": null,
   "review": {

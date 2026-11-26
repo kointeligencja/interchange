@@ -1,8 +1,23 @@
-# INTERCHANGE — działająca implementacja v1.10
+# INTERCHANGE — działająca implementacja v1.11
 
 **Status: wersja do przeglądu zespołowego, nie zatwierdzona publikacja.**
 
 36 tematów o transformacji AI, sześć linii, własna mapa SVG i spokojne strony do czytania. To rzeczywisty interfejs HTML/CSS/JavaScript z pełną treścią, a nie obraz makiety. Projekt realizuje kierunek „Everything is neutral except the network”.
+
+## Zmiany v1.11 — wzbogacenie 7 stacji o *Messy Jobs* (15-kartowy primer Thomasa Wolfa)
+
+Wydanie v1.11 dodaje rodzinę źródeł **S63** (Luis Garicano, Jin Li i Yanhui Wu — *Messy Jobs: The Work That AI Cannot Reach*, w 15-kartowym opracowaniu wizualnym Thomasa Wolfa `@Thom_Wolf`, 26 listopada 2026, z bezpośrednim linkiem do wątku na X i odwołaniem do `messyjobs.ai`) oraz 7 perspektyw dowodowych z dosłownymi cytatami z kart:
+- **AI-01**: przepaść między szybką adopcją indywidualną (55% dorosłych w USA w <3 lata) a powolną transformacją firm (analogia elektryfikacji fabryk: 5% po 17 latach, połowa po 37 latach) wynikająca ze zmiany architektonicznej, mgły operacyjnej i oporu (`messy-jobs-architectural-lag-and-fog`).
+- **AI-02**: silne vs słabe wiązki zadań (*strong vs. weak bundles*) determinowane przez 3 więzi — nieprzewidywalność, nakładający się kontekst i niemożność przypisania winy jednemu podzadaniu (kontrprzykład radiologów: 1 095 urządzeń AI zatwierdzonych przez FDA do końca 2025 r., rekordowe 1 208 miejsc rezydenckich, bo odczyt obrazów to tylko 36% dnia pracy) (`messy-jobs-strong-weak-bundles`).
+- **AI-06**: kwalifikacja hurraoptymizmu wokół paradoksu Jevonsa (`S49`) — skok produktywności może prowadzić do nasycenia popytu (rolnictwo USA: 41% → 1,2%) zamiast efektu Jevonsa (węgiel w Wlk. Brytanii: 72 → 292 mln t/rok), wzmianka o spadku wydatków na inferencję wg Ramp oraz efekt Baumola ograniczający wzrost (`messy-jobs-satiation-vs-jevons`).
+- **AI-07**: cztery strukturalne powody, dla których AI nie może sprawować władzy decyzyjnej tam, gdzie skutki dotyczą ludzi — wiedza ukryta, odpowiedzialność prawna, sprawiedliwość proceduralna i ludzkie prawo weta/override (`messy-jobs-authority-limits`).
+- **AI-09**: rzadka triada wdrożeniowca (*the implementer*: wiedza proceduralna + technologiczna + polityczna) wobec 59/100 pracowników używających własnych narzędzi AI i 60% liderów bez planu, plus 3 dźwignie dyfuzji (szybkość, ograniczona dostępność/status, wzajemne uczenie się zespołów zamiast modułów szkoleniowych) (`messy-jobs-implementer-triad`).
+- **AI-13**: pułapka przeciętności („zrzut helikopterowy” na 90% w 10 sekund vs triaż zadań: *commodity / star / winner takes all*), pęknięta drabina karier (−50% rekrutacji absolwentów w 15 największych firmach tech w 2024 vs 2019 wg SignalFire) oraz załamanie sygnałów rekrutacyjnych Spence’a (`messy-jobs-mediocrity-trap-and-signals`).
+- **AI-28**: „workslop” (klątwa weryfikatora — odwrócenie nakładu pracy z pisania na czytanie linijka po linijce) i trzy strukturalne poprawki: mniejsze zespoły jako jednostki zaufania, jawność procesu oraz wynagradzanie weryfikacji jako realnej pracy (`messy-jobs-workslop-verifiers-curse`).
+
+Zastrzeżenie: 15-kartowy primer i notatki Thomasa Wolfa streszczające książkę Garicano, Li i Wu (2026), nie bezpośredni audyt pełnego tekstu książki; część wykresów jest schematyczna, a przywoływane statystyki wtórne wymagają osobnej weryfikacji źródeł pierwotnych.
+
+Łącznie: 54 rodziny źródeł i 119 przypisanych perspektyw (90 pozycji w uniwersalnym indeksie semantycznym Jev).
 
 ## Zmiany v1.10 — wzbogacenie 6 stacji o badanie The Anthropic Institute (*Working with AI*)
 
@@ -132,7 +147,7 @@ npm run build
 - Zapisywanie tematów w tej przeglądarce, kopiowanie linku i szablonu roboczego; bez kont i analityki.
 - Budowanie statycznych stron, walidacja danych, testy, kontrola linków wewnętrznych, obsługa subścieżki i blokada niezatwierdzonej publikacji.
 
-Wersja zawiera **64 strony**, **52 rodziny źródłowe z dostarczonymi publicznymi URL** i **106 przypisanych perspektyw** (88 obiektów w indeksie semantycznym Jev). Te liczby nie oznaczają niezależnej weryfikacji źródeł. Treść i interfejs pozostają po angielsku, zgodnie z materiałem wejściowym. Instrukcja dla zespołu jest po polsku.
+Wersja zawiera **64 strony**, **54 rodziny źródłowe z dostarczonymi publicznymi URL** i **119 przypisanych perspektyw** (90 obiektów w indeksie semantycznym Jev). Te liczby nie oznaczają niezależnej weryfikacji źródeł. Treść i interfejs pozostają po angielsku, zgodnie z materiałem wejściowym. Instrukcja dla zespołu jest po polsku.
 
 ## Architektura — ważne rozróżnienie
 

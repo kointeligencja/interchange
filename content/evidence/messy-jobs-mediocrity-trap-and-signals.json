@@ -1,0 +1,16 @@
+{
+  "id": "messy-jobs-mediocrity-trap-and-signals",
+  "source_id": "S63",
+  "type": "qualification",
+  "title": "The 90% helicopter-drop plateau, broken career ladders and collapsing hiring signals erode future expert judgement",
+  "text": "Cards 11, 13 and 14 connect three linked threats to long-run judgement. First, AI creates a 'helicopter drop' mediocrity trap: dropping workers at 90% quality in ten seconds tempts many to stop on a plateau without making the climb that builds frontier skill, requiring task triage between commodity tasks (stop at 90%), star tasks (the last 10% is the job) and winner-takes-all tasks. Second, the career ladder is breaking silently: SignalFire's May 2025 State of Talent Report shows new-grad hires at the 15 largest tech firms fell 50% in 2024 versus 2019 (−25% in 2024 alone), while old-way seniors mask the gap until retirement. Third, AI collapses Michael Spence hiring signals: when anyone can polish a cover letter for free, letters fail both costly-to-produce and separating-cost tests, pushing screening back toward track records, real upfront work and unscalable human time.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Synthesis across Cards 11, 13 and 14 (citing Messy Jobs ch. 11–12 and pp. 139–145, 164–170, 181–183, plus SignalFire May 2025). Card 14's inset also cites the July 2025 METR developer study (+20% felt faster, 19% measured slower across 16 developers / 246 tasks) while explicitly noting METR's February 2026 update called that result out of date.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "Instead of a progressive ramp, we now climb quickly to a middle range of quality. The difference still lies in who can push the last remaining 10%."
+  },
+  "review": {
+    "status": "pending"
+  }
+}

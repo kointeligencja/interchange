@@ -4,7 +4,7 @@
   "slug": "learning-in-real-work",
   "title": "Expecting licences and a training session to change how people work",
   "summary": "Develop role-specific capability through real tasks, feedback and protected practice.",
-  "diagnosis": "A generic course can introduce a tool without helping someone recognise a useful task, check the output or recover from a failure. When AI usage is confined to private direct messages, the organization loses informal apprenticeship: junior colleagues cannot observe how seniors prompt, critique synthetic outputs or catch edge cases. Real capability develops when agent interactions occur openly on the shared team floor and connect directly to the workflow people actually perform.",
+  "diagnosis": "A generic course can introduce a tool without helping someone recognise a useful task, check the output or recover from a failure. When AI usage is confined to private direct messages, the organization loses informal apprenticeship: junior colleagues cannot observe how seniors prompt, critique synthetic outputs or catch edge cases. Real capability develops when agent interactions occur openly on the shared team floor and connect directly to the workflow people actually perform. Organisations that bridge shadow AI and real adoption identify rare internal implementers who combine procedural, technological and political knowledge, and rely on peer-to-peer teaching rather than generic training modules.",
   "diagnostic_questions": [
     "What must each role be able to do safely and competently after training?",
     "Do employees have approved tools, useful data, examples and time to practise on relevant work?",
@@ -38,7 +38,8 @@
     "daily-citizen-lifecycle",
     "choudary-judgement",
     "emergence-doers-next-to-builders",
-    "lutke-shop-floor-apprenticeship"
+    "lutke-shop-floor-apprenticeship",
+    "messy-jobs-implementer-triad"
   ],
   "source_ids": [
     "S01",
@@ -47,7 +48,8 @@
     "S18",
     "S40",
     "S48",
-    "S53"
+    "S53",
+    "S63"
   ],
   "report_reference": {
     "source_id": "S01",

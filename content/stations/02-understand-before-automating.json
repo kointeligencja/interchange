@@ -4,11 +4,12 @@
   "slug": "understand-before-automating",
   "title": "Automating a process nobody understands",
   "summary": "Map real work, including its exceptions and informal decisions, before deciding what to automate.",
-  "diagnosis": "A workflow diagram can be technically correct and operationally false. Work may actually pass through private spreadsheets, calls, queues and improvised interpretations. Some missing steps are undocumented knowledge; others are unresolved decisions about how the business should operate. Distinguish those two situations so that an engineer is not asked to invent policy while building an integration.",
+  "diagnosis": "A workflow diagram can be technically correct and operationally false. Work may actually pass through private spreadsheets, calls, queues and improvised interpretations. Some missing steps are undocumented knowledge; others are unresolved decisions about how the business should operate. Distinguish those two situations so that an engineer is not asked to invent policy while building an integration. Before automating a task, check whether the surrounding role is a weak bundle of separable tasks or a strong bundle bound by unpredictability, overlapping context and non-separable blame—because automating one task inside a strong bundle expands what the specialist handles rather than eliminating the role.",
   "diagnostic_questions": [
     "Can a person follow one ordinary case and one difficult case from trigger to accepted completion?",
     "Where does the work wait, change format, need clarification or rely on an unnamed expert?",
-    "Which steps are unnecessary, and which apparent inefficiencies protect quality, relationships or accountability?"
+    "Which steps are unnecessary, and which apparent inefficiencies protect quality, relationships or accountability?",
+    "Is the target task separable from the surrounding role, or tied to it by unpredictability, overlapping context and shared accountability for failure?"
   ],
   "proposed_actions": [
     "Observe real cases with frontline workers; capture inputs, transformations, handoffs, waits, decisions, exceptions and completion evidence.",
@@ -35,13 +36,15 @@
   "evidence_ids": [
     "process-hidden-decisions",
     "pierce-map-work",
-    "pucek-cross-silo-contradiction"
+    "pucek-cross-silo-contradiction",
+    "messy-jobs-strong-weak-bundles"
   ],
   "source_ids": [
     "S01",
     "S22",
     "S24",
-    "S46"
+    "S46",
+    "S63"
   ],
   "report_reference": {
     "source_id": "S01",

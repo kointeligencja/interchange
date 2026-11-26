@@ -1,0 +1,16 @@
+{
+  "id": "messy-jobs-architectural-lag-and-fog",
+  "source_id": "S63",
+  "type": "organizational-theory",
+  "title": "Fast personal AI uptake hides architectural lag, fog and resistance inside firms",
+  "text": "Thomas Wolf's primer on Garicano, Li and Wu's Messy Jobs contrasts rapid personal uptake of generative AI (55% of US adults in under 3 years after ChatGPT, 37% at work, per St. Louis Fed Nov 2025) with factory electrification, which reached only 5% of US factory mechanical power after 17 years and half after 37 years (Paul David, 1989/1990). Inside companies, transformation lags individual tool access for three structural reasons: architectural change (starting small fails because many interdependent changes must happen together), fog (nobody yet knows the new way to work with AI) and resistance (those who stand to lose create passive or active friction).",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Historical analogy and organizational-economics synthesis from a 15-card book primer (Card 10, citing Messy Jobs pp. 103–108, Paul David AER 1990 and Bick, Blandin & Deming Nov 2025); electrification is a structural analogy rather than a deterministic timeline for AI.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "Why it is slow inside companies (p. 103-108): 1 Architectural change — starting small fails: many changes must happen together; 2 Fog — nobody knows the new way to work with AI yet; 3 Resistance — those who stand to lose create friction, passive or active"
+  },
+  "review": {
+    "status": "pending"
+  }
+}

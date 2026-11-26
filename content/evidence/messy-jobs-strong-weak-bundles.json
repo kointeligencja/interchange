@@ -1,0 +1,16 @@
+{
+  "id": "messy-jobs-strong-weak-bundles",
+  "source_id": "S63",
+  "type": "organizational-theory",
+  "title": "Whether automating one task shrinks or strengthens a role depends on three bundle ties",
+  "text": "Garicano, Li and Wu argue that jobs are bundles of tasks whose internal ties decide what happens when AI takes a subtask. In a weak bundle (such as a billing clerk whose tasks stand alone), automating invoice typing leaves a narrower, simpler role that more people can do. In a strong bundle (such as a nurse or radiologist), tasks are bound by three ties—unpredictability (not knowing which task comes next, such as a scan turning into a procedure), overlapping context (one task builds capability for another) and measuring blame (failure cannot be pinned on a single subtask). By end of 2025 the FDA had cleared 1,095 radiology AI devices (76% of all FDA-cleared AI devices), yet 2025 saw a record 1,208 radiology residency places, because reading images accounts for only 36% of a radiologist's working day versus 64% in procedures, consults, patients and teaching.",
+  "attribution_layer": "source-as-represented",
+  "qualification": "Conceptual framework from Messy Jobs (Cards 4–5, citing pp. 43–56) illustrated with schematic bundles and secondary data (FDA AI device list through 2025, NRMP 2025 via Works in Progress, and Dhanoa et al. 2013 covering 14 radiologists in Vancouver); radiology time-split data is small-sample and predates recent AI tooling.",
+  "public_locator": {
+    "kind": "quote",
+    "value": "AI takes one task, and the ties decide what happens to the full job. What makes a bundle strong: three ties (p. 48-51): 1 Unpredictability; 2 Overlapping context; 3 Measuring blame"
+  },
+  "review": {
+    "status": "pending"
+  }
+}
